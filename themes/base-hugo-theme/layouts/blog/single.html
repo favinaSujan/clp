@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<nav class="row m-0 inner-page-nav drop-shadow w-100 d-flex align-items-center justify-content-between">
+    <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">h y p e r o b j e k t</a></div>
+    <div class="nav-menu d-none d-md-block pr-4"><a href="/" class="no-underline pr-4">h o m e</a><a href="/#work" class="no-underline pr-4">w o r k</a><a href="/about" class="no-underline pr-4">a b o u t</a><a href="/blog" class="no-underline menu-active">b l o g</a></div>
+    <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
+        <span class="navbar-toggler-icon"></span>
+    </div>
+</nav>
+ 
+<div class="row d-flex subnav">
+    <div class="col-12 p-0 ml-0 ml-md-4">
+        <ul class="d-flex flex-wrap justify-content-start align-items-center pl-4 pl-md-0">
+        
+            <li class=""><a href="/">Home</a>&nbsp; &nbsp;></li>
+            <li class="">&nbsp;&nbsp;&nbsp;<a href="/blog">blog</a>&nbsp; &nbsp; > &nbsp; &nbsp;</li>
+            <li class="">{{ .Params.title }}</li>
+        
+        </ul>
+    </div>
+  </div>
+
+<div class="row pt-10 pt-lg-11">
+    <div class="col-xs-12 col-md-10 col-lg-9 col-xl-8 mb-10 mx-auto">
+        <img class="bloghero mb-4 mb-lg-5" src="{{ .Params.social_image }}" />
+        <h1 tabindex="0" class="dkgraytext mb-2">{{ .Title }}</h1>
+        <h2 tabindex="0" class="dkgraytext mb-4">{{ .Params.subtitle }}</h2>
+        {{ .Content }}
+         </div>
+</div>
+
+
+{{ partial "footer2.html" . }}
+
+{{ end }}
+

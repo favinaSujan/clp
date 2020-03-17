@@ -1,0 +1,87 @@
+h1 {
+    @include aktiv-regular;
+    font-size: 7rem;
+    color: #343434;
+}
+h2,
+div.h2 {
+  @include futura-bold;
+  font-size: 3.2rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 3.2rem;
+    line-height: 2.7rem;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 5rem;
+    color: #FFFFFF;
+    letter-spacing: 0.049rem;
+    line-height: 7rem;
+  }
+
+}
+
+h3 {
+  @include futura-medium;
+  font-size: 1.7rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 3.2rem;
+    line-height: 2.7rem;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 5rem;
+    color: #FFFFFF;
+    letter-spacing: 0.049rem;
+    line-height: 7rem;
+  }
+}
+
+h4 {
+  @include futura-demi;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    // letter-spacing: .03rem;
+
+
+  @include media-breakpoint-up(md) {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      letter-spacing: .07rem;
+   
+  } 
+}
+
+
+h5 {
+  @include futura-medium;
+  font-size: 1.6rem;
+  letter-spacing: 0.15rem;
+  //font-size: 1.4rem;
+  color: #FFFFFF;
+ // letter-spacing: .2rem;
+  // text-align: center;
+  line-height: 2.4rem;
+}
+
+div, p, span {
+    @include aktiv-light;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+div, p, span {
+    color: #343434;
+}
+select {
+    border: none;
+    background: url('images/icons/downarrow.svg');
+    -webkit-appearance: none;
+    padding-right: 2.4rem;
+    background-position: right center;
+    background-repeat: no-repeat;
+    @include aktiv-regular;
+    font-size: 5rem;
+    color: #6247AA;
+}
+
+.regular, .regular span {
+    @include aktiv-regular;
+}

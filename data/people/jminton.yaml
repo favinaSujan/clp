@@ -1,0 +1,9 @@
+name: "James Minton"
+role: "leadership" # director, staff, or partner
+title: "Founder/Creative Director" # maybe different from role; is displayed
+image: "/images/people/James.jpg" # will be cropped to center square & rounded
+thumb: "/images/people/James.jpg"
+current: true # true or false (for former)
+weight: 1
+blurb: >
+ 

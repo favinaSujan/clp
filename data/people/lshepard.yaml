@@ -1,0 +1,8 @@
+name: "Laura Shepard"
+role: "leadership" # director, staff, or partner
+title: "Analytics & Social Media" # maybe different from role; is displayed
+image: "/images/people/Laura.jpg" # will be cropped to center square & rounded
+thumb: "/images/people/Laura.jpg"
+current: true # true or false (for former)
+weight: 60
+blurb: >

@@ -1,0 +1,47 @@
+options: 
+  - year1: 1850
+    year2: 1860
+    crosswalkfile:
+    codesfolder:
+    documentation:
+  - year1: 1850
+    year2: 1870
+    crosswalkfile:
+    codesfolder:
+    documentation:
+  - year1: 1850
+    year2: 1880
+    crosswalkfile:
+    codesfolder:
+    documentation:
+  - year1: 1850
+    year2: 1890
+    crosswalkfile:
+    codesfolder:
+    documentation:   
+  - year1: 1850
+    year2: 1900
+    crosswalkfile:
+    codesfolder:
+    documentation:  
+  - year1: 1850
+    year2: 1910
+    crosswalkfile:
+    codesfolder:
+    documentation: 
+  - year1: 1850
+    year2: 1920
+    crosswalkfile:
+    codesfolder:
+    documentation: 
+  - year1: 1850
+    year2: 1930
+    crosswalkfile:
+    codesfolder:
+    documentation:
+  - year1: 1850
+    year2: 1940
+    crosswalkfile:
+    codesfolder:
+    documentation:                      
+    

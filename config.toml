@@ -1,0 +1,53 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hyperobjekt"
+theme = "base-hugo-theme"
+googleAnalytics = ""
+paginate = 5
+enableRobotsTXT = true
+
+[imaging]
+resampleFilter = "box"
+quality = 70
+anchor = "smart"
+
+[params]
+  # google_analytics_id=""
+  hideFooter=false
+  includeBootstrapJs=true
+  containerMaxWidth=1200
+  showActiveNav=true
+
+
+# main menu
+[menu]  
+    [[menu.main]]
+        Name = "home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "work"
+        url = "/#work"
+        weight = 2
+
+    [[menu.main]]
+        name = "about"
+        url = "/about"
+        weight = 3    
+
+    [[menu.main]]
+        name = "blog"
+        url = "/blog/"
+        weight = 4
+
+    [[menu.main]]
+        name = "contact"
+        url = "/#contact"
+        weight = 5
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
+
+

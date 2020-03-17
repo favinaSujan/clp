@@ -1,0 +1,97 @@
+{{ define "main" }}
+
+<!--<nav class="row m-0 inner-page-nav w-100 d-flex align-items-center justify-content-between">
+    <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">Census Linking Project</a></div>
+    <div class="nav-menu pr-4 d-none d-md-block"><a href="/" class="no-underline pr-4 menu-active">h o m e</a><a href="/#work" class="no-underline scroll-to-section pr-4" data-scroll-target="work">w o r k</a><a href="/about" class="no-underline pr-4">a b o u t</a><a href="/blog" class="no-underline">b l o g</a></div>
+    <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
+        <span class="navbar-toggler-icon"></span>
+    </div>
+</nav>-->
+
+<div class="row">
+    <div class="col-12 col-md-9 mt-10 px-0 mx-auto">
+        <h1>Data</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-md-9 mx-auto d-flex bordered py-5 px-0">
+        <div class="col-6 pl-0 pr-4">
+            <p>The data found below contains the crosswalks for each Census wave linked to every other (1850-1940). There are 36 crosswalks in total, representing every combination of Census years.* Each matched observation in these crosswalks is associated with two internal person-level identifiers (histids), one for each Census year. It is important to note that histids are not constant within individuals over time, and so cannot be used to establish matches. Instead, matches were established using first and last name, year of birth and state/country of birth.</p>
+            <p>The crosswalks also give users the option to select the linking method with which matches were created. Using the histid identifiers, users can merge into these crosswalks a wide set of individual- and household-level variables provided publicly by IPUMS, thereby creating a historical longitudinal dataset for analysis. 
+            </p>
+        </div>
+
+        <div class="col-6 pl-0">
+            <p>*Please note that the microdata for the 1890 Census is no longer extent.</p>
+            <p>Please select the starting and final year of your desired linked dataset. Here starting year refers to one particular wave of the Census and final year refers to another wave of the Census. For instance, if you choose 1900 as your starting year and 1940 as your final year, then the crosswalk will provide you with histids of individuals in 1900 matched to histids of individuals in 1940. You will then be able to download the data (in .dta and .csv formats), codes used to create the crosswalks, and further codes that will allow you to merge in information from IPUMS and to reweight the data. Extensive documentation is provided
+                and should be consulted before using the data.</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    
+        <div class="col-12 col-md-9 mx-auto mt-6 px-0 d-flex flex-wrap">
+            <div class="col-6 d-flex regular px-0">View as:<span class="view-as">Menu &nbsp; <a href="/data-table">Table</a></span></div><div class="col-6 d-flex regular px-0">Crosswalk files for<span class="file-title"></span></div>
+            <div class="w-100 mb-4"></div>
+            <div class="col-6 d-flex px-0">
+                <div class="d-flex align-items-end regular">
+                    <span class="select-label d-block mr-3"><label for="states">Select:</label></span>
+                </div>  
+                <div class="year-select mr-3">
+                    
+                        <p class="regular year-start">Starting year:</p>
+                   
+                    <form>
+                        <select class="census1" id="census1">
+                            <option value="1850">1850</option>
+                            <option value="1860">1860</option>
+                            <option value="1870">1870</option>
+                            <option value="1880">1880</option>
+                            <option value="1890">1890</option>
+                            <option value="1900">1900</option>
+                            <option value="1910">1910</option>
+                            <option value="1920">1920</option>
+                            <option value="1930">1930</option>
+                        </select>
+                    </form>
+                </div>
+           
+                <div class="year-select">
+                    <p class="regular">Final year:</p>
+                    <form>
+                    <select class="census2" id="census2">
+                            <option value="1860">1860</option>
+                            <option value="1870">1870</option>
+                            <option value="1880">1880</option>
+                            <option value="1890">1890</option>
+                            <option value="1900">1900</option>
+                            <option value="1910">1910</option>
+                            <option value="1920">1920</option>
+                            <option value="1930">1930</option>
+                            <option value="1940">1940</option>
+                        </select>
+                    </form>    
+                        <!--<input type="button" name="Submit" value="Go" class="submit-census">-->
+                </div>      
+           
+            </div>
+            <div class="col-6 px-0">
+                <div id="show-crosswalk" class="mt-1" style="position: absolute;">
+                <div id="crosswalk18501860" class="years"></div>
+                <div id="crosswalkcodes" class="codes">codes_folder</div> 
+                <div id="crosswalkdocs" class="docs">documentation</div> 
+            </div>
+          
+        </div>
+    </div> 
+</div>
+
+
+
+
+
+    {{/* partial "footer.html" . */}}
+
+
+{{ end }}

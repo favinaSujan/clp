@@ -1,0 +1,2045 @@
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "xmlns": "http://www.w3.org/2005/Atom",
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+        "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values"
+        },
+        "updated": {
+            "$t": "2020-03-14T16:19:40.111Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Sheet1"
+        },
+        "link": [
+            {
+                "rel": "alternate",
+                "type": "application/atom+xml",
+                "href": "https://docs.google.com/spreadsheets/u/0/d/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/pubhtml"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#feed",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#post",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values"
+            },
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values?alt\u003djson"
+            }
+        ],
+        "author": [
+            {
+                "name": {
+                    "$t": "james"
+                },
+                "email": {
+                    "$t": "james@evictionlab.org"
+                }
+            }
+        ],
+        "openSearch$totalResults": {
+            "$t": "45"
+        },
+        "openSearch$startIndex": {
+            "$t": "1"
+        },
+        "entry": [
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cokwr"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1860, crosswalkfile: file1, codesfolder: folder1, documentation: doc1"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cokwr"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1860"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file1"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder1"
+                },
+                "gsx$documentation": {
+                    "$t": "doc1"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cpzh4"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1860"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1870, crosswalkfile: file2, codesfolder: folder2, documentation: doc2"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cpzh4"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1860"
+                },
+                "gsx$year2": {
+                    "$t": "1870"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file2"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder2"
+                },
+                "gsx$documentation": {
+                    "$t": "doc2"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cre1l"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1870"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1880, crosswalkfile: file3, codesfolder: folder3, documentation: doc3"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cre1l"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1870"
+                },
+                "gsx$year2": {
+                    "$t": "1880"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file3"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder3"
+                },
+                "gsx$documentation": {
+                    "$t": "doc3"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/chk2m"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1880"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1890, crosswalkfile: file4, codesfolder: folder4, documentation: doc4"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/chk2m"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1880"
+                },
+                "gsx$year2": {
+                    "$t": "1890"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file4"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder4"
+                },
+                "gsx$documentation": {
+                    "$t": "doc4"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ciyn3"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1890"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1900, crosswalkfile: file5, codesfolder: folder5, documentation: doc5"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ciyn3"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1890"
+                },
+                "gsx$year2": {
+                    "$t": "1900"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file5"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder5"
+                },
+                "gsx$documentation": {
+                    "$t": "doc5"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ckd7g"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1900"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1910, crosswalkfile: file6, codesfolder: folder6, documentation: doc6"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ckd7g"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1900"
+                },
+                "gsx$year2": {
+                    "$t": "1910"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file6"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder6"
+                },
+                "gsx$documentation": {
+                    "$t": "doc6"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/clrrx"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1910"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1920, crosswalkfile: file7, codesfolder: folder7, documentation: doc7"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/clrrx"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1910"
+                },
+                "gsx$year2": {
+                    "$t": "1920"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file7"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder7"
+                },
+                "gsx$documentation": {
+                    "$t": "doc7"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cyevm"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1920"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file8, codesfolder: folder8, documentation: doc8"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cyevm"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1920"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file8"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder8"
+                },
+                "gsx$documentation": {
+                    "$t": "doc8"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cztg3"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1930"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1940, crosswalkfile: file9, codesfolder: folder9, documentation: doc9"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cztg3"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1930"
+                },
+                "gsx$year2": {
+                    "$t": "1940"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file9"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder9"
+                },
+                "gsx$documentation": {
+                    "$t": "doc9"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d180g"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1870, crosswalkfile: file10, codesfolder: folder10, documentation: doc10"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d180g"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1870"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file10"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder10"
+                },
+                "gsx$documentation": {
+                    "$t": "doc10"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d2mkx"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1860"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1880, crosswalkfile: file11, codesfolder: folder11, documentation: doc11"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d2mkx"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1860"
+                },
+                "gsx$year2": {
+                    "$t": "1880"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file11"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder11"
+                },
+                "gsx$documentation": {
+                    "$t": "doc11"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cssly"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1870"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1890, crosswalkfile: file12, codesfolder: folder12, documentation: doc12"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cssly"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1870"
+                },
+                "gsx$year2": {
+                    "$t": "1890"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file12"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder12"
+                },
+                "gsx$documentation": {
+                    "$t": "doc12"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cu76f"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1880"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1900, crosswalkfile: file13, codesfolder: folder13, documentation: doc13"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cu76f"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1880"
+                },
+                "gsx$year2": {
+                    "$t": "1900"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file13"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder13"
+                },
+                "gsx$documentation": {
+                    "$t": "doc13"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cvlqs"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1890"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1910, crosswalkfile: file14, codesfolder: folder14, documentation: doc14"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cvlqs"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1890"
+                },
+                "gsx$year2": {
+                    "$t": "1910"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file14"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder14"
+                },
+                "gsx$documentation": {
+                    "$t": "doc14"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cx0b9"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1900"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1920, crosswalkfile: file15, codesfolder: folder15, documentation: doc15"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/cx0b9"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1900"
+                },
+                "gsx$year2": {
+                    "$t": "1920"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file15"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder15"
+                },
+                "gsx$documentation": {
+                    "$t": "doc15"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d9ney"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1910"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file16, codesfolder: folder16, documentation: doc16"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d9ney"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1910"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file16"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder16"
+                },
+                "gsx$documentation": {
+                    "$t": "doc16"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/db1zf"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1920"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1940, crosswalkfile: file17, codesfolder: folder17, documentation: doc17"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/db1zf"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1920"
+                },
+                "gsx$year2": {
+                    "$t": "1940"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file17"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder17"
+                },
+                "gsx$documentation": {
+                    "$t": "doc17"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dcgjs"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1880, crosswalkfile: file18, codesfolder: folder18, documentation: doc18"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dcgjs"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1880"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file18"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder18"
+                },
+                "gsx$documentation": {
+                    "$t": "doc18"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ddv49"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1860"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1890, crosswalkfile: file19, codesfolder: folder19, documentation: doc19"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ddv49"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1860"
+                },
+                "gsx$year2": {
+                    "$t": "1890"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file19"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder19"
+                },
+                "gsx$documentation": {
+                    "$t": "doc19"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d415a"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1870"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1900, crosswalkfile: file20, codesfolder: folder20, documentation: doc20"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d415a"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1870"
+                },
+                "gsx$year2": {
+                    "$t": "1900"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file20"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder20"
+                },
+                "gsx$documentation": {
+                    "$t": "doc20"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d5fpr"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1880"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1910, crosswalkfile: file21, codesfolder: folder21, documentation: doc21"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d5fpr"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1880"
+                },
+                "gsx$year2": {
+                    "$t": "1910"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file21"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder21"
+                },
+                "gsx$documentation": {
+                    "$t": "doc21"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d6ua4"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1890"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1920, crosswalkfile: file22, codesfolder: folder22, documentation: doc22"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d6ua4"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1890"
+                },
+                "gsx$year2": {
+                    "$t": "1920"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file22"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder22"
+                },
+                "gsx$documentation": {
+                    "$t": "doc22"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d88ul"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1900"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file23, codesfolder: folder23, documentation: doc23"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/d88ul"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1900"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file23"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder23"
+                },
+                "gsx$documentation": {
+                    "$t": "doc23"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dkvya"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1910"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1940, crosswalkfile: file24, codesfolder: folder24, documentation: doc24"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dkvya"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1910"
+                },
+                "gsx$year2": {
+                    "$t": "1940"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file24"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder24"
+                },
+                "gsx$documentation": {
+                    "$t": "doc24"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dmair"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1890, crosswalkfile: file25, codesfolder: folder25, documentation: doc25"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dmair"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1890"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file25"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder25"
+                },
+                "gsx$documentation": {
+                    "$t": "doc25"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dnp34"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1860"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1900, crosswalkfile: file26, codesfolder: folder26, documentation: doc26"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dnp34"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1860"
+                },
+                "gsx$year2": {
+                    "$t": "1900"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file26"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder26"
+                },
+                "gsx$documentation": {
+                    "$t": "doc26"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dp3nl"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1870"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1910, crosswalkfile: file27, codesfolder: folder27, documentation: doc27"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dp3nl"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1870"
+                },
+                "gsx$year2": {
+                    "$t": "1910"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file27"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder27"
+                },
+                "gsx$documentation": {
+                    "$t": "doc27"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/df9om"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1880"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1920, crosswalkfile: file28, codesfolder: folder28, documentation: doc28"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/df9om"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1880"
+                },
+                "gsx$year2": {
+                    "$t": "1920"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file28"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder28"
+                },
+                "gsx$documentation": {
+                    "$t": "doc28"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dgo93"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1890"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file29, codesfolder: folder29, documentation: doc29"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dgo93"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1890"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file29"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder29"
+                },
+                "gsx$documentation": {
+                    "$t": "doc29"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/di2tg"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1900"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1940, crosswalkfile: file30, codesfolder: folder30, documentation: doc30"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/di2tg"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1900"
+                },
+                "gsx$year2": {
+                    "$t": "1940"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file30"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder30"
+                },
+                "gsx$documentation": {
+                    "$t": "doc30"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/djhdx"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1900, crosswalkfile: file31, codesfolder: folder31, documentation: doc31"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/djhdx"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1900"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file31"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder31"
+                },
+                "gsx$documentation": {
+                    "$t": "doc31"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dw4je"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1860"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1910, crosswalkfile: file32, codesfolder: folder32, documentation: doc32"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dw4je"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1860"
+                },
+                "gsx$year2": {
+                    "$t": "1910"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file32"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder32"
+                },
+                "gsx$documentation": {
+                    "$t": "doc32"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dxj3v"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1870"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1920, crosswalkfile: file33, codesfolder: folder33, documentation: doc33"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dxj3v"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1870"
+                },
+                "gsx$year2": {
+                    "$t": "1920"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file33"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder33"
+                },
+                "gsx$documentation": {
+                    "$t": "doc33"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dyxo8"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1880"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file34, codesfolder: folder34, documentation: doc34"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dyxo8"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1880"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file34"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder34"
+                },
+                "gsx$documentation": {
+                    "$t": "doc34"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e0c8p"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1890"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1940, crosswalkfile: file35, codesfolder: folder35, documentation: doc35"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e0c8p"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1890"
+                },
+                "gsx$year2": {
+                    "$t": "1940"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file35"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder35"
+                },
+                "gsx$documentation": {
+                    "$t": "doc35"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dqi9q"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1910, crosswalkfile: file36, codesfolder: folder36, documentation: doc36"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dqi9q"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1910"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file36"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder36"
+                },
+                "gsx$documentation": {
+                    "$t": "doc36"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/drwu7"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1860"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1920, crosswalkfile: file37, codesfolder: folder37, documentation: doc37"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/drwu7"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1860"
+                },
+                "gsx$year2": {
+                    "$t": "1920"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file37"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder37"
+                },
+                "gsx$documentation": {
+                    "$t": "doc37"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dtbek"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1870"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file38, codesfolder: folder38, documentation: doc38"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dtbek"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1870"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file38"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder38"
+                },
+                "gsx$documentation": {
+                    "$t": "doc38"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dupz1"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1880"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1940, crosswalkfile: file39, codesfolder: folder39, documentation: doc39"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/dupz1"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1880"
+                },
+                "gsx$year2": {
+                    "$t": "1940"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file39"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder39"
+                },
+                "gsx$documentation": {
+                    "$t": "doc39"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e7d2q"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1920, crosswalkfile: file40, codesfolder: folder40, documentation: doc40"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e7d2q"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1920"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file40"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder40"
+                },
+                "gsx$documentation": {
+                    "$t": "doc40"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e8rn7"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1860"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file41, codesfolder: folder41, documentation: doc41"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e8rn7"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1860"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file41"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder41"
+                },
+                "gsx$documentation": {
+                    "$t": "doc41"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ea67k"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1870"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1940, crosswalkfile: file42, codesfolder: folder42, documentation: doc42"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ea67k"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1870"
+                },
+                "gsx$year2": {
+                    "$t": "1940"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file42"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder42"
+                },
+                "gsx$documentation": {
+                    "$t": "doc42"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ebks1"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file43, codesfolder: folder43, documentation: doc43"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/ebks1"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file43"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder43"
+                },
+                "gsx$documentation": {
+                    "$t": "doc43"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e1qt2"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1860"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1940, crosswalkfile: file44, codesfolder: folder44, documentation: doc44"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e1qt2"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1860"
+                },
+                "gsx$year2": {
+                    "$t": "1940"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file44"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder44"
+                },
+                "gsx$documentation": {
+                    "$t": "doc44"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e35dj"
+                },
+                "updated": {
+                    "$t": "2020-03-14T16:19:40.111Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "1850"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "year2: 1930, crosswalkfile: file45, codesfolder: folder45, documentation: doc45"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/1nqCmSSZIW53PA0XhGy_KgBFE-ULGLmCXVzva8T3c3uY/1/public/values/e35dj"
+                    }
+                ],
+                "gsx$year1": {
+                    "$t": "1850"
+                },
+                "gsx$year2": {
+                    "$t": "1930"
+                },
+                "gsx$crosswalkfile": {
+                    "$t": "file45"
+                },
+                "gsx$codesfolder": {
+                    "$t": "folder45"
+                },
+                "gsx$documentation": {
+                    "$t": "doc45"
+                }
+            }
+        ]
+    }
+}}

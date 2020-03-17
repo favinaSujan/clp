@@ -1,0 +1,8 @@
+name: "Peter Lollo"
+role: "leadership" # director, staff, or partner
+title: "Developer" # maybe different from role; is displayed
+image: "/images/people/Peter.jpg" # will be cropped to center square & rounded
+thumb: "/images/people/Peter.jpg"
+current: true # true or false (for former)
+weight: 60
+blurb: >
