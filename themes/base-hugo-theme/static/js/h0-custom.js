@@ -97,9 +97,9 @@ $(document).ready(function () {
 
     $('select#census2').find('option').each(function() {
         if (Number(this.value) <= censusID1) {
-            $(this).attr('disabled', 'disabled');
+            $(this).hide();
         } else {
-            $(this).removeAttr('disabled');
+            $(this).show();
         }
     });
     var fileLinkYears = '&nbsp;' + censusID1 + '—' + censusID2;

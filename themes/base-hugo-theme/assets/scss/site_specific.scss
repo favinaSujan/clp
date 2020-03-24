@@ -26,6 +26,12 @@ body.data {
     form { 
         line-height: 0.9;
     }
+    #show-crosswalk {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     
 }
 
