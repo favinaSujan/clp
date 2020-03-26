@@ -83,7 +83,7 @@
 
 $(document).ready(function () {
 
-  $('.years').append('Crosswalk_1850_1860.dta');
+  $('.years').append('Crosswalk_1850_1860.zip');
   $('.file-title').append('&nbsp;1850-1860');
 
   $("select").change(function(){
@@ -103,7 +103,7 @@ $(document).ready(function () {
         }
     });
     var fileLinkYears = '&nbsp;' + censusID1 + '—' + censusID2;
-    var fileLinkTitle = 'Crosswalk_' + censusID1 + '_' + censusID2 + '.dta';
+    var fileLinkTitle = 'Crosswalk_' + censusID1 + '_' + censusID2 + '.zip';
     
     console.log(fileLinkTitle); 
     $('.file-title').empty();
