@@ -64,7 +64,7 @@ h5 {
 
 div, p, span {
     @include aktiv-light;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.5;
     .datamenu {
         font-size: 1.5rem;
@@ -78,6 +78,9 @@ div, p, span {
     color: #6247AA;
     font-weight: 400;
    // text-underline-position: under;
+   &.datafile {
+        font-size: 2.8rem;
+   }
 }
 .intro p {
    // font-weight: 400;
