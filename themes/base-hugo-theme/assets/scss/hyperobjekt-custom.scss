@@ -367,15 +367,12 @@ input.form-control {
 
 // Header
 
-nav a:hover, footer a:hover {
-  color: #fff !important;
-}
 
 nav.inner-page-nav {
   height: 48px;
   position: fixed;
   background-color: #fff;
-  background-color: #021029;
+  //background-color: #021029;
   z-index: 2;
   .wordmark, .nav-menu {
     font-weight: 400;
@@ -400,7 +397,7 @@ nav.inner-page-nav {
 }
 .home {
   nav {
-    background-color: transparent;
+    background-color: #fff;
     &.sticky-top {
       background-color: #021029;
     }
