@@ -51,6 +51,13 @@ $cyanteal: #0893AD;
 $boldyellow: #FFCC05;
 $midnightblue: #020f28;
 
+// CLP Colors
+
+$clporange: #FF6105;
+$clpcharcoal: #343434;
+$clppurple: #6247AA;
+
+
 // Links
 $link-color: $seda-navy; // $primary;
 $link-decoration: none;
@@ -158,6 +165,8 @@ $spacers: map-merge(
     18: 14.4rem,
     19: 15.2rem,
     20: 16rem,
+    21: 16.8rem,
+    22: 17.6rem
   ),
   $spacers
 );

@@ -22,29 +22,34 @@ anchor = "smart"
 # main menu
 [menu]  
     [[menu.main]]
-        Name = "home"
+        Name = "Home"
         url = "/"
         weight = 1
 
     [[menu.main]]
-        name = "work"
-        url = "/#work"
+        name = "About"
+        url = "/about"
         weight = 2
 
     [[menu.main]]
-        name = "about"
-        url = "/about"
+        name = "Data"
+        url = "/data"
         weight = 3    
 
     [[menu.main]]
-        name = "blog"
-        url = "/blog/"
+        name = "Methods"
+        url = "/methods"
         weight = 4
 
     [[menu.main]]
-        name = "contact"
-        url = "/#contact"
+        name = "Team"
+        url = "/team"
         weight = 5
+
+    [[menu.main]]
+        name = "Contact"
+        url = "/contact"
+        weight = 5    
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

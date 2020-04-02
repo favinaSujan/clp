@@ -1,0 +1,22 @@
+<nav class="row m-0 inner-page-nav w-100 d-flex align-items-center">
+    <div class="wordmark col-5 offset-md-1">
+        <a href="/" class=""><img class="logo" src="/images/logo/clp-logo.svg"/>Census Linking Project</a></div>
+    <div class="nav-menu col-5 d-none d-md-flex justify-content-between">
+        {{ $showActiveNav := .Site.Params.showActiveNav }}
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        {{ $active := "" }}
+        {{ if eq $showActiveNav true }}
+            {{ $isMenu := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+            {{ if or $isMenu (eq $currentPage.Title .Name) }}
+            {{ $active = "nav-link-active active" }}
+            {{ end }}
+        {{ end }}
+        {{ $text := print .Name | safeHTML }}
+        <a class="{{ $active }}" tabindex="0" href="{{ .URL | relURL }}">{{ $text }}</a>
+        {{ end }}
+    </div>
+    <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
+        <span class="navbar-toggler-icon"></span>
+    </div>
+</nav>

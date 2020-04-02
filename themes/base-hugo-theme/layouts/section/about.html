@@ -1,88 +1,9 @@
 {{ define "main" }}
 
-<nav class="row m-0 inner-page-nav drop-shadow w-100 d-flex align-items-center justify-content-between">
-  <div class="wordmark pl-4"><a href="/" class="no-underline whitetext">h y p e r o b j e k t</a></div>
-  <div class="nav-menu d-none d-md-block pr-4"><a href="/" class="no-underline pr-4">h o m e</a><a href="/#work" class="no-underline pr-4">w o r k</a><a href="/about" class="no-underline pr-4 menu-active">a b o u t</a><a href="/blog" class="no-underline">b l o g</a></div>
-  <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
-    <span class="navbar-toggler-icon"></span>
-  </div>
-</nav>
 
 
 
-<div class="row pt-13 pt-lg-15 mb-0">
-  <div class="col-xs-12 col-md-10 col-lg-9 col-xl-7 mx-auto">
-    <h1>{{ .Title }}</h1>
-  </div>
-</div>    
-<div class="row left-block ml-0 mr-3 mb-2 mb-md-6 pl-3 pt-6">
 
-  <div class="about-item col-xs-12 col-md-6 offset-md-2 offset-xl-3 col-lg-5 col-xl-4  pr-4 ">
-   
-    
-  </div>
-  <div class="chart-graphic col-12 col-md-3">
-    
-  </div>
-
-</div>
-
-<div class="row right-block mr-0 pr-3 ml-0 pl-3 mb-0 py-2 pb-4 py-md-6">
-    <div class="left-divider d-none col col-md-7 offset-md-3 pb-6"><hr/></div><!--<div class="col col-md-4"></div>-->
-    <div class="chart-graphic2 offset-md-2 offset-lg-2 offset-xl-3 col-12 col-md-3 col-xl-2">
-    
-      </div>
-    <div class="mb-2 mb-md-0 about-item col-12 col-md-6 col-lg-5 col-xl-4 pr-4">
-    </div>
-    <div class="about-item col-xs-12 col-md-3 pl-0">
-     
-        <!--<h2 class="mb-2 dkgraytext">our<br>values</h2>-->
-      
-    </div>
-  
-</div>
-
-<div class="row left-block2 ml-0 mr-3 mb-0 pl-3 pt-2 pt-md-7 pb-2 pb-md-6">
-    <div class="left-divider d-none col col-md-7 offset-md-3 pb-6"><hr/></div><!--<div class="col col-md-4"></div>-->
-    <div class="mb-2 mb-md-0 about-item col-12 col-md-2 col-xl-3 offset-md-0 pr-0 d-flex align-items-start justify-content-end text-right">
-        <h2 class="mb-2 dkgraytext"></h2>
-    </div>
-    <div class="about-item col-xs-12 col-md-6 col-lg-5 col-xl-4 pr-4">
-     
-      
-    </div>
-    <div class="chart-graphic3  col-12 col-md-2 col-md-3">
-    
-      </div>
-  
-</div>
-
-<div class="row people ml-0 pl-0 mr-0 pt-5">
-        <div class="col-xs-12 col-lg-8 offset-lg-2 mb-10 flex-row d-flex flex-wrap justify-content-center">
-            <h2 class="mb-2 dkgraytext d-block w-100 text-center mt-2 mb-6">our team</h2>  
-                {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
-                {{ if eq .role "leadership" }}
-                <!-- <div class="col-xs-12 col-mm-4 col"> -->
-                  <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
-                    
-                          <div data-image="{{ .thumb }}" class="pic drop-shadow" style="background: url('{{ .thumb }}'); background-size: contain;" alt="Photo of {{ .name }}" tabindex="0">
-                              <!--<button class="">+</button>-->
-                          </div>
-                    
-          
-                      {{ partial "person.html" . }}
-          
-                  </div>
-                {{ end }}
-              {{ end }}
-    
-    
-        </div>
-    </div>
-     
-
-
-{{ partial "footer2.html" . }}
 
 
 {{ end }}

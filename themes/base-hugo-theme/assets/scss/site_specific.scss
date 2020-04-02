@@ -1,3 +1,36 @@
+nav.inner-page-nav {
+    height: 80px;
+    .wordmark a {
+        font-size: 2rem;
+        @include aktiv-regular;
+        color: $clporange;
+        &:hover {
+            text-decoration: none;
+            color: $clporange;
+        }
+        img {
+            margin-right: .8rem;
+            margin-top: -6px;
+        }
+    }
+    a {
+        color: $clpcharcoal;
+        @include aktiv-light;
+        text-decoration: none;
+        font-size: 1.6rem;
+        &:hover {
+            color: $clppurple;
+            text-decoration: underline;
+        }
+        &.active {
+            color: $clppurple;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
 #show-crosswalk {
     .years {
       //  display: none;
