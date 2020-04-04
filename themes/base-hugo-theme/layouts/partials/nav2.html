@@ -1,7 +1,7 @@
-<nav class="row m-0 inner-page-nav w-100 d-flex align-items-center">
-    <div class="wordmark col-5 offset-md-1">
+<nav class="row m-0 inner-page-nav w-100 d-flex align-items-center justify-content-between">
+    <div class="wordmark col-10 col-md-5 offset-lg-1">
         <a href="/" class=""><img class="logo" src="/images/logo/clp-logo.svg"/>Census Linking Project</a></div>
-    <div class="nav-menu col-5 d-none d-md-flex justify-content-between">
+    <div class="nav-menu col-md-6 col-lg-5 d-none d-md-flex justify-content-between">
         {{ $showActiveNav := .Site.Params.showActiveNav }}
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
@@ -16,6 +16,7 @@
         <a class="{{ $active }}" tabindex="0" href="{{ .URL | relURL }}">{{ $text }}</a>
         {{ end }}
     </div>
+    <div class="col-1 d-none d-lg-block"></div>
     <div class="drawer-toggle d-md-none pr-3" id="toggleDrawer" aria-controls="#drawer" aria-label="Toggle navigation drawer">
         <span class="navbar-toggler-icon"></span>
     </div>
