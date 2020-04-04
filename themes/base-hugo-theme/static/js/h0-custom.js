@@ -112,14 +112,20 @@ $(document).ready(function () {
     };
     function rollover2() {
       var element2 = document.getElementById("show-crosswalk");
+      $('.years').removeClass('rollover1');
+      void element2.offsetWidth;
+      $('.years').addClass('rollover1');
+    
+      //$('.years').removeClass('rollover2');
+     // void element2.offsetWidth;
+      //$('.years').addClass('rollover2');
+    };  
+    function changeCrosswalk() {  
       $('.years').empty();
       $('.years').append(fileLinkTitle);
-      $('.years').removeClass('rollover2');
-      void element2.offsetWidth;
-      $('.years').addClass('rollover2');
-    };  
-    setTimeout(rollover1, 1);
-    setTimeout(rollover2, 1000);
+    }
+    setTimeout(rollover2, 0);
+    setTimeout(changeCrosswalk, 400);
    // getCrosswalk(censusID3,censusID4);
   });
 
