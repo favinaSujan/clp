@@ -77,10 +77,6 @@
 // CLP ----------------------------------------------------------------
 
 
-  
- 
-// Load spreadsheet ------------------------------------------------------------------------- /
-
 $(document).ready(function () {
 
   $('.years').append('Crosswalk_1850_1860.zip');
@@ -106,10 +102,24 @@ $(document).ready(function () {
     var fileLinkTitle = 'Crosswalk_' + censusID1 + '_' + censusID2 + '.zip';
     
     console.log(fileLinkTitle); 
-    $('.file-title').empty();
-    $('.file-title').append(fileLinkYears); 
-    $('.years').empty();
-    $('.years').append(fileLinkTitle);
+   // $('.file-title').empty();
+   // $('.file-title').append(fileLinkYears); 
+    function rollover1() {
+      var element1 = document.getElementById("selectarea");
+      $('.years').removeClass('rollover1');
+      void element1.offsetHeight;
+      $('.years').addClass('rollover1');
+    };
+    function rollover2() {
+      var element2 = document.getElementById("show-crosswalk");
+      $('.years').empty();
+      $('.years').append(fileLinkTitle);
+      $('.years').removeClass('rollover2');
+      void element2.offsetWidth;
+      $('.years').addClass('rollover2');
+    };  
+    setTimeout(rollover1, 1);
+    setTimeout(rollover2, 1000);
    // getCrosswalk(censusID3,censusID4);
   });
 
