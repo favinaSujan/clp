@@ -3,7 +3,7 @@
 {{ partial "nav2" . }}
 
 <div class="row">
-    <div class="col-12 col-md-9 mt-20 px-0 mx-auto">
+    <div class="col-12 col-md-9 mt-15 mt-md-20 px-0 mx-auto">
         <h1>Data</h1>
     </div>
 </div>
@@ -12,20 +12,18 @@
     <div id="selectarea" class="col-12 col-md-9 mx-auto px-0 d-flex flex-wrap bordered py-5">
         <!--<div class="col-6 d-flex regular px-0">View as:<span class="view-as">Menu &nbsp; <a href="/data-table">Table</a></span></div><div class="col-6 d-flex regular px-0">Crosswalk files for<span class="file-title"></span></div>
         <div class="w-100 mb-4"></div>-->
-        <div class="col-6 mb-3 pl-0 pr-3"><p>
+        <div class="col col-lg-6 mb-3 pl-0 pr-3"><p>
             {{ with .Site.Data.data }}
                 {{ .intro }}
                 {{ end }}
         </p></div>
-        <div class="col-6"></div>
-        <div class="col-6 d-flex px-0">
+        <div class="col-12 col-lg-6"></div>
+        <div class="col-12 col-lg-6 d-flex px-0">
             <div class="d-flex align-items-end regular datamenu">
-                <span class="select-label d-block mr-3"><label for="states">Select:</label></span>
+                <span class="select-label d-block mr-2"><label for="states">Select:</label></span>
             </div>  
             <div class="year-select mr-3">
-               
                     <p class="regular year-start datamenu">Starting year:</p>
-               
                 <form>
                     <select class="census1" id="census1">
                         <option class="" value="1850">1850</option>
@@ -60,8 +58,8 @@
             </div>      
        
         </div>
-        <div class="col-6 px-0">
-            <div id="show-crosswalk" class="datamenu" style="position: absolute;">
+        <div class="col-12 col-lg-6 px-0 mt-5 mt-lg-0">
+            <div id="show-crosswalk" class="datamenu" style="">
                 <p class="regular datamenu">Download crosswalk and documentation:</p>
                 <div id="crosswalk18501860" class="years datafile"></div>
         </div>
@@ -71,15 +69,15 @@
 </div>
 
 <div class="row">
-    <div class="col-12 col-md-9 mx-auto d-flex py-5 px-0 data-notes">
-        <div class="col-6 pl-0 pr-4">
+    <div class="col-12 col-md-9 mx-auto d-md-flex py-5 px-0 data-notes">
+        <div class="col-12 col-md-6 pl-0 pr-4">
             {{ with .Site.Data.data }}
                 <p>{{ .para1 | safeHTML }}</p>
                 <p>{{ .para2 | safeHTML }}</p>
             {{ end }}
         </div>
 
-        <div class="col-6 pl-0">
+        <div class="col-12 col-md-6 pl-0">
             {{ with .Site.Data.data }}
                 <p>{{ .para3 | safeHTML }}</p>
                 <hr class="my-2"><p>{{ .para4 | safeHTML }}</p>
