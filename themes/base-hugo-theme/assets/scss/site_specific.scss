@@ -42,8 +42,8 @@ nav.inner-page-nav {
         }
         &.rollover1 {
             transform: translateY(0px);
-            animation: rollover1 0.8s ease;
-            opacity: 1;
+           // animation: rollover1 0.8s ease;
+          //  opacity: 1;
             @keyframes rollover1 {
                 0% {transform: translateY(0px)};
                 40% {opacity: 0};
@@ -55,8 +55,8 @@ nav.inner-page-nav {
             }
         }
         &.rollover2 {
-            animation: rollover2 1s ease;
-            animation-delay: 2s;
+         //   animation: rollover2 1s ease;
+        //    animation-delay: 2s;
            //transform: translateY(0px);
             @keyframes rollover2 {
                 from {opacity: 0};
@@ -125,6 +125,16 @@ body.home {
             margin-left: 5px;
             margin-top: -2px;
         }
+    }
+}
+
+body.type-about {
+    .container-fluid {
+        background-color: #F4FCFB;
+        }
+    #roll-img {
+        height: auto;
+        background-color: #fff;
     }
 }
 
