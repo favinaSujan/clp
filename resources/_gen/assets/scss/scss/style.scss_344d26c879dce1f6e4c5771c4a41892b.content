@@ -19309,7 +19309,10 @@ body.type-about .container-fluid {
 
 body.type-about #roll-img {
   height: auto;
-  background-color: #fff;
+  background-image: url("/images/census1920.jpg");
+  background-size: cover;
+  background-position: center top;
+  border-right: 24px solid #F4FCFB;
 }
 
 body.type-methods .container-fluid {
