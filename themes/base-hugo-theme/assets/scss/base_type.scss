@@ -79,7 +79,10 @@ div, p, span {
     font-weight: 400;
    // text-underline-position: under;
    &.datafile {
-        font-size: 2.8rem;
+        font-size: 2rem;
+        @include media-breakpoint-up(md) {
+          font-size: 2.8rem;
+        }
    }
 }
 .intro p {
@@ -89,6 +92,12 @@ div, p, span {
 div, p, span {
     color: #343434;
 }
+.largetext {
+  font-size: 2.326rem;
+}
+.orangetext {
+  color: $clporange;
+}
 select {
     border: none;
     background: url('images/icons/downarrow.svg');
@@ -97,8 +106,19 @@ select {
     background-position: right center;
     background-repeat: no-repeat;
     @include aktiv-regular;
-    font-size: 5rem;
+    font-size: 4.2rem;
+    @include media-breakpoint-up(md) {
+      font-size: 5rem;
+    }
     color: #6247AA;
+}
+.pullquote {
+  font-size: 4rem;
+  border-top: 1px solid $clporange;
+  border-bottom: 1px solid $clporange;
+  @include media-breakpoint-up(md){
+    font-size: 4rem;
+  }
 }
 
 .regular, .regular span {
