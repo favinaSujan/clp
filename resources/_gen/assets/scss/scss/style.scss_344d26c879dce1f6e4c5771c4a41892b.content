@@ -19357,6 +19357,20 @@ body.data #show-crosswalk {
   justify-content: flex-end;
 }
 
+body.type-team .container-fluid {
+  background-color: #F4FCFB;
+}
+
+body.type-team img.methods-img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  body.type-team img.methods-img {
+    width: 75%;
+  }
+}
+
 .bordered {
   border-top: 1px solid #A5A5A5;
   border-bottom: 1px solid #A5A5A5;
@@ -19522,6 +19536,15 @@ select {
 
 .med-text {
   font-size: 2.6rem;
+}
+
+.f-16 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.memberName {
+  font-size: 3rem;
 }
 
 .regular, .regular span {

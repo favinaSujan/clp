@@ -1,8 +1,0 @@
-name: "Noele Lusano"
-role: "leadership" # director, staff, or partner
-title: "Designer" # maybe different from role; is displayed
-image: "/images/people/Noele.jpg" # will be cropped to center square & rounded
-thumb: "/images/people/Noele.jpg"
-current: true # true or false (for former)
-weight: 70
-blurb: >

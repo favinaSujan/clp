@@ -175,7 +175,17 @@ body.data {
         flex-direction: column;
         justify-content: flex-end;
     }
-    
+}
+body.type-team {
+    .container-fluid {
+        background-color: #F4FCFB;
+        }
+   img.methods-img {
+       width: 100%;
+       @include media-breakpoint-up(md) {
+           width: 75%;
+       }
+   } 
 }
 
 // Utils -------------------------- /

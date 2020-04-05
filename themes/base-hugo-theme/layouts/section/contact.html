@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+
+{{ partial "nav2" . }}
+
+
+<div class="row">
+  <div class="col-12 col-md-8 col-lg-6 offset-md-1 offset-lg-2 py-3 mt-15 mt-md-20">
+    <h1>Linking Methods</h1>
+  </div>
+</div> 
+
+<div class="row">
+    <div class="med-text regular orangetext col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 py-3">
+        Consider the following (real-world) linking problem: you want to match a man who is listed in the 1915 Iowa census as Paul Coulter, 3 years old, born in Kansas, to the 1940 Federal census. After much searching, you find two possible candidates in the 1940 census: Paul Coater, 28 years, born in Kansas, and Paul Courter, 29 years old, born in Kansas. Who, if anyone, would you choose as the correct match?
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 py-3">
+        <img class="methods-img" src="/images/link_methods.png" style="max-width: 100%;" />
+    </div>
+</div>
+
+
+<div class="row pb-15">
+  <div class="col-12 col-md-5 col-lg-4 offset-md-1 offset-lg-2 mt-1 mt-md-6">
+    <p>This example illustrates a recurrent challenge in historical record linkage: Common names, along
+        with transcription and enumeration errors, age misreporting, mortality*, under-enumeration and
+        international migration between census years, often make it impossible to find the correct match
+        with certainty. Therefore, the linking methods used in this project try to make as few false matches as possible (minimize type I errors) and create as many of the true matches as possible (minimize type II errors). A comparison of the linking methods on this frontier can be found in Figure 1.</p>
+  </div>
+  <div class="col-12 col-md-5 col-lg-4 mt-0 mt-md-6">
+    <p>This figure refers to a series of linking methods used in this project (e.g., the ABE method, machine learning method, and EM method). Details of these linking methods can be found in the paper “Automated Linking of Historical Data” by Ran Abramitzky, Leah Platt Boustan, Katherine Eriksson, James J. Feigenbaum, and Santiago Pérez. The generic codes used to implement each of these methods can be found here. 
+        <hr class="my-2">* Missed links due to mortality will be a larger problem when linking between two Censuses
+        conducted a number of years apart (i.e. matching from the 1850 Census to 1940 Census) and so links created over a long time span should be used with caution.</p> 
+  </div>
+</div>
+
+
+
+
+
+
+  
+
+
+{{ end }}
+
+
+

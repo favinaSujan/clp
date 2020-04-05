@@ -1,9 +1,0 @@
-name: "Sasha Zyryaev"
-role: "leadership" # director, staff, or partner
-title: "Lead Designer" # maybe different from role; is displayed
-image: "/images/people/Sasha.jpg" # will be cropped to center square & rounded
-thumb: "/images/people/Sasha.jpg"
-weight: 40
-current: true # true or false (for former)
-blurb: >
-  

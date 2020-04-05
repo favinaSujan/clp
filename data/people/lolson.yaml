@@ -1,9 +1,0 @@
-name: "Lane Olson"
-role: "leadership" # director, staff, or partner
-title: "Technical Lead" # maybe different from role; is displayed
-image: "/images/people/lolson_full.jpg" # will be cropped to center square & rounded
-thumb: "/images/people/lolson_full.jpg"
-current: true # true or false (for former)
-weight: 2
-blurb: >
-  
