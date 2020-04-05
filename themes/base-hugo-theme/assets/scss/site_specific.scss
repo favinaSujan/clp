@@ -21,10 +21,12 @@ nav.inner-page-nav {
         &:hover {
             color: $clppurple;
             text-decoration: underline;
+            text-underline-position: under;
         }
         &.active {
             color: $clppurple;
             text-decoration: underline;
+            text-underline-position: under;
         }
     }
 }
@@ -44,10 +46,10 @@ nav.inner-page-nav {
             opacity: 1;
             @keyframes rollover1 {
                 0% {transform: translateY(0px)};
-                49% {opacity: 0};
-                50% {transform: translateY(-5px)};
+                40% {opacity: 0};
+                41% {transform: translateY(-5px)};
                
-                51% {transform: translateY(5px)};
+                42% {transform: translateY(5px)};
                 70% {opacity: 1};
                 100% {transform: translateY(0px)};
             }
@@ -60,6 +62,54 @@ nav.inner-page-nav {
                 from {opacity: 0};
                 to {opacity: 1};
             }
+        }
+    }
+}
+body .container-fluid {
+    
+}
+
+body.home {
+    .row.hero {
+        height: 78vh;
+        background-color: #F4FCFB; 
+        min-height: 500px;
+    }
+    .row.cta {
+        background-color: #fff;
+        height: 22vh;
+        min-height: 144px;
+        a.data-cta {
+            text-decoration: none;
+            display: block;
+            &::after {
+                content: "";
+                height: 4px;
+                width: 33%;
+                background-color: $clporange;
+                display: block;
+                opacity: 0;
+            }
+            &:hover {
+               // margin-top: 4px;
+               &::after {
+                opacity: 1;
+                transition: opacity .3s ease;
+               }
+            //   border-bottom: 3px solid $clporange;
+                
+            }
+        }
+        .data-cta-heading {
+            font-size: 5rem;
+            @include aktiv-regular;
+        }
+        .data-cta p {
+            font-size: 1.6rem;
+        }
+        .rtarrow {
+            margin-left: 5px;
+            margin-top: -2px;
         }
     }
 }

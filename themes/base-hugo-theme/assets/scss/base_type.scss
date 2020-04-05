@@ -89,6 +89,12 @@ div, p, span {
 div, p, span {
     color: #343434;
 }
+.largetext {
+  font-size: 2.326rem;
+}
+.orangetext {
+  color: $clporange;
+}
 select {
     border: none;
     background: url('images/icons/downarrow.svg');

@@ -125,7 +125,7 @@ $(document).ready(function () {
       $('.years').append(fileLinkTitle);
     }
     setTimeout(rollover2, 0);
-    setTimeout(changeCrosswalk, 400);
+    setTimeout(changeCrosswalk, 280);
    // getCrosswalk(censusID3,censusID4);
   });
 

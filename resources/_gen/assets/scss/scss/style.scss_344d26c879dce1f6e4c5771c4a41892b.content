@@ -18281,10 +18281,6 @@ nav.inner-page-nav.sticky-top {
   background-color: #021029;
 }
 
-.home nav .wordmark {
-  opacity: 0;
-}
-
 .home nav.sticky-top .wordmark {
   opacity: 1;
   transition: opacity 0.3s ease;
@@ -19490,11 +19486,13 @@ nav.inner-page-nav a {
 nav.inner-page-nav a:hover {
   color: #6247AA;
   text-decoration: underline;
+  text-underline-position: under;
 }
 
 nav.inner-page-nav a.active {
   color: #6247AA;
   text-decoration: underline;
+  text-underline-position: under;
 }
 
 #show-crosswalk .years.show {
@@ -19511,13 +19509,13 @@ nav.inner-page-nav a.active {
   0% {
     transform: translateY(0px);
   }
-  49% {
+  40% {
     opacity: 0;
   }
-  50% {
+  41% {
     transform: translateY(-5px);
   }
-  51% {
+  42% {
     transform: translateY(5px);
   }
   70% {
@@ -19540,6 +19538,53 @@ nav.inner-page-nav a.active {
   to {
     opacity: 1;
   }
+}
+
+body.home .row.hero {
+  height: 78vh;
+  background-color: #F4FCFB;
+  min-height: 500px;
+}
+
+body.home .row.cta {
+  background-color: #fff;
+  height: 22vh;
+  min-height: 144px;
+}
+
+body.home .row.cta a.data-cta {
+  text-decoration: none;
+  display: block;
+}
+
+body.home .row.cta a.data-cta::after {
+  content: "";
+  height: 4px;
+  width: 33%;
+  background-color: #FF6105;
+  display: block;
+  opacity: 0;
+}
+
+body.home .row.cta a.data-cta:hover::after {
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+body.home .row.cta .data-cta-heading {
+  font-size: 5rem;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body.home .row.cta .data-cta p {
+  font-size: 1.6rem;
+}
+
+body.home .row.cta .rtarrow {
+  margin-left: 5px;
+  margin-top: -2px;
 }
 
 body.data .container-fluid {
@@ -19688,6 +19733,14 @@ div .datamenu, p .datamenu, span .datamenu {
 
 div, p, span {
   color: #343434;
+}
+
+.largetext {
+  font-size: 2.326rem;
+}
+
+.orangetext {
+  color: #FF6105;
 }
 
 select {
