@@ -180,12 +180,14 @@ body.type-team {
     .container-fluid {
         background-color: #F4FCFB;
         }
-   img.methods-img {
-       width: 100%;
-       @include media-breakpoint-up(md) {
-           width: 75%;
-       }
-   } 
+
+}
+
+body.type-contact {
+    .container-fluid {
+        background-color: #F4FCFB;
+        min-height: 100vh;
+        }
 }
 
 // Utils -------------------------- /
