@@ -19361,14 +19361,9 @@ body.type-team .container-fluid {
   background-color: #F4FCFB;
 }
 
-body.type-team img.methods-img {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  body.type-team img.methods-img {
-    width: 75%;
-  }
+body.type-contact .container-fluid {
+  background-color: #F4FCFB;
+  min-height: 100vh;
 }
 
 .bordered {
