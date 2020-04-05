@@ -19312,6 +19312,20 @@ body.type-about #roll-img {
   background-color: #fff;
 }
 
+body.type-methods .container-fluid {
+  background-color: #F4FCFB;
+}
+
+body.type-methods img.methods-img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  body.type-methods img.methods-img {
+    width: 75%;
+  }
+}
+
 body.data .container-fluid {
   background-color: #F4FCFB;
 }
@@ -19504,6 +19518,10 @@ select {
   .pullquote {
     font-size: 4rem;
   }
+}
+
+.med-text {
+  font-size: 2.6rem;
 }
 
 .regular, .regular span {

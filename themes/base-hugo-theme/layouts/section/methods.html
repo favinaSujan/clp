@@ -1,93 +1,51 @@
 {{ define "main" }}
 
-<div id="hero" class="hero row" style="">
-    <div class="hero-child row">
-      <div class="column col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
-        <h2 tabindex="0">Methods</h2>
-        <p tabindex="0">This page needs outline and content :-)</p>
-      </div>
-     </div>
-</div>
 
-<div class="row subnav d-md-none">
-     
-        <div class="dropdown">
-            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Jump to Section:
-            </button>
-    <!--<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
-      <ul class="anchor-links dropdown-menu">
-        <li><a data-scroll-target="glossary" class="scroll-to-section">Glossary</a></li>
-        <li><a data-scroll-target="data" class="scroll-to-section">Interpreting the Data</a></li>
-        <li><a data-scroll-target="map" class="scroll-to-section">Download Methods Paper (PDF)</a></li>
-    </ul>
-    <!--</div>-->
+{{ partial "nav2" . }}
+
+
+<div class="row">
+  <div class="col-12 col-md-8 col-lg-6 offset-md-1 offset-lg-2 py-3 mt-15 mt-md-20">
+    <h1>Linking Methods</h1>
   </div>
- 
+</div> 
+
+<div class="row">
+    <div class="med-text regular orangetext col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 py-3">
+        Consider the following (real-world) linking problem: you want to match a man who is listed in the 1915 Iowa census as Paul Coulter, 3 years old, born in Kansas, to the 1940 Federal census. After much searching, you find two possible candidates in the 1940 census: Paul Coater, 28 years, born in Kansas, and Paul Courter, 29 years old, born in Kansas. Who, if anyone, would you choose as the correct match?
+    </div>
 </div>
 
-<div class="row subnav d-sm-none d-md-block">
-   
-      <ul class="anchor-links col-md-8 mx-auto d-md-flex">
-        <li >Jump to Section:</li>
-        <li><a data-scroll-target="glossary" class="scroll-to-section">Glossary</a></li>
-        <li><a data-scroll-target="data" class="scroll-to-section">Interpreting the Data</a></li>
-        <li><a data-scroll-target="map" class="scroll-to-section">Download Methods Paper (PDF)</a></li>
-      </ul>
-    </div>
-
-
-<div class="row glossary" id="glossary">
-    <div class="col-xs-12 col-sm-12 col-md-7 col-xl-7 mx-auto">
-        <h3 tabindex="0">Glossary</h3>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-7 col-xl-7 mx-auto">
-        
-        <div class="accordion">
-            {{ range .Site.Data.faq }}
-                {{ if eq .section "glossary" }} 
-                <!-- faq item -->
-                {{ partial "faqs" . }}
-                {{ end }}
-            {{ end }}
-        </div> <!-- close accordion -->
-    </div>
-</div>
-<div class="row data" id="data">
-    <div class="col-xs-12 col-sm-12 col-md-7 col-xl-7 mx-auto">
-        <h3 tabindex="0">Interpreting the Data</h3>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-7 col-xl-7 mx-auto">
-        
-        <div class="accordion">
-            {{ range .Site.Data.faq }}
-                {{ if eq .section "data" }} 
-                <!-- faq item -->
-                {{ partial "faqs" . }}
-                {{ end }}
-            {{ end }}
-        </div> <!-- close accordion -->
-    </div>
-</div>
-<div class="row map" id="map">
-    <div class="col-xs-12 col-sm-12 col-md-7 col-xl-7 mx-auto">
-        <h3 tabindex="0">Download Methods Paper</h3> 
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-7 col-xl-7 mx-auto">
-       
-        <div class="accordion">
-            {{ range .Site.Data.faq }}
-                {{ if eq .section "map" }} 
-                <!-- faq item -->
-                {{ partial "faqs" . }}
-                {{ end }}
-            {{ end }}
-        </div> <!-- close accordion -->
+<div class="row">
+    <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 py-3">
+        <img class="methods-img" src="/images/link_methods.png" style="max-width: 100%;" />
     </div>
 </div>
 
 
+<div class="row pb-15">
+  <div class="col-12 col-md-5 col-lg-4 offset-md-1 offset-lg-2 mt-1 mt-md-6">
+    <p>This example illustrates a recurrent challenge in historical record linkage: Common names, along
+        with transcription and enumeration errors, age misreporting, mortality*, under-enumeration and
+        international migration between census years, often make it impossible to find the correct match
+        with certainty. Therefore, the linking methods used in this project try to make as few false matches as possible (minimize type I errors) and create as many of the true matches as possible (minimize type II errors). A comparison of the linking methods on this frontier can be found in Figure 1.</p>
+  </div>
+  <div class="col-12 col-md-5 col-lg-4 mt-0 mt-md-6">
+    <p>This figure refers to a series of linking methods used in this project (e.g., the ABE method, machine learning method, and EM method). Details of these linking methods can be found in the paper “Automated Linking of Historical Data” by Ran Abramitzky, Leah Platt Boustan, Katherine Eriksson, James J. Feigenbaum, and Santiago Pérez. The generic codes used to implement each of these methods can be found here. 
+        <hr class="my-2">* Missed links due to mortality will be a larger problem when linking between two Censuses
+        conducted a number of years apart (i.e. matching from the 1850 Census to 1940 Census) and so links created over a long time span should be used with caution.</p> 
+  </div>
+</div>
 
-{{ partial "subscribe.html" .}}
+
+
+
+
+
+  
+
 
 {{ end }}
+
+
+

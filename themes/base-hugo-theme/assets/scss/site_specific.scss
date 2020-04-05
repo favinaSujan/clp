@@ -138,6 +138,18 @@ body.type-about {
     }
 }
 
+body.type-methods {
+    .container-fluid {
+        background-color: #F4FCFB;
+        }
+   img.methods-img {
+       width: 100%;
+       @include media-breakpoint-up(md) {
+           width: 75%;
+       }
+   } 
+}
+
 body.data {
     .container-fluid {
     background-color: #F4FCFB;
