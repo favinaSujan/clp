@@ -19541,9 +19541,28 @@ nav.inner-page-nav a.active {
 }
 
 body.home .row.hero {
-  height: 78vh;
   background-color: #F4FCFB;
-  min-height: 500px;
+}
+
+body.home .row.hero #herotext {
+  order: 2;
+}
+
+body.home .row.hero #census-graphic {
+  order: 1;
+}
+
+@media (min-width: 992px) {
+  body.home .row.hero {
+    height: 78vh;
+    min-height: 500px;
+  }
+  body.home .row.hero #herotext {
+    order: 1;
+  }
+  body.home .row.hero #census-graphic {
+    order: 2;
+  }
 }
 
 body.home .row.cta {
