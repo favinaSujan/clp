@@ -123,6 +123,13 @@ select {
 .med-text {
   font-size: 2.6rem;
 }
+.f-16 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.memberName {
+  font-size: 3rem;
+}
 .regular, .regular span {
     @include aktiv-regular;
 }
