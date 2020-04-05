@@ -49,7 +49,7 @@ anchor = "smart"
     [[menu.main]]
         name = "Contact"
         url = "/contact"
-        weight = 5    
+        weight = 6    
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
