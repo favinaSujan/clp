@@ -71,6 +71,23 @@ body .container-fluid {
 
 body.home {
     background-color: #F4FCFB; 
+    nav {
+       -webkit-animation-name: fadeInDown;
+       animation-name: fadeInDown;
+       animation-duration: 1.4s;
+       animation-delay: 3s;
+       -webkit-animation-fill-mode: both;
+       animation-fill-mode: both;
+       .wordmark, .nav-menu {
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+            animation-duration: 1.4s;
+            animation-delay: 3.25s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+       }
+       
+    }
     .row.hero {
         background-color: #F4FCFB; 
         #herotext {
@@ -208,6 +225,38 @@ body.type-contact {
 
 // Animations
 
+@-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  /*.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  } */
       
     @keyframes fadeInUp {
         from {
@@ -374,6 +423,67 @@ body.type-contact {
         animation-duration: 3s;
       }
       
+
+// Delays
+
+    .animated.delay-halfs {
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+    }
+
+      .animated.delay-1s {
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+      }
+
+      .animated.delay-1-5s {
+        -webkit-animation-delay: 1.5s;
+        animation-delay: 1.5s;
+      }  
+      
+      .animated.delay-2s {
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+      }
+
+      .animated.delay-2-5s {
+        -webkit-animation-delay: 2.5s;
+        animation-delay: 2.5s;
+      }
+      
+      .animated.delay-3s {
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+      }
+
+      .animated.delay-3-25s {
+        -webkit-animation-delay: 3.25s;
+        animation-delay: 3.25s;
+      }
+
+      .animated.delay-3-5s {
+        -webkit-animation-delay: 3.5s;
+        animation-delay: 3.5s;
+      }
+      
+      .animated.delay-4s {
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+
+      .animated.delay-4-5s {
+        -webkit-animation-delay: 4.5s;
+        animation-delay: 4.5s;
+      }
+      
+      .animated.delay-5s {
+        -webkit-animation-delay: 5s;
+        animation-delay: 5s;
+      }
+
+
+
+
       @media (print), (prefers-reduced-motion: reduce) {
         .animated {
           -webkit-animation-duration: 1ms !important;
