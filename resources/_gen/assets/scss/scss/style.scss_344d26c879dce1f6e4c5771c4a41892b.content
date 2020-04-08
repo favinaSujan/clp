@@ -19360,6 +19360,10 @@ body.data #show-crosswalk {
   justify-content: flex-end;
 }
 
+body.data #show-crosswalk a {
+  text-underline-position: under;
+}
+
 body.type-team .container-fluid {
   background-color: #F4FCFB;
 }

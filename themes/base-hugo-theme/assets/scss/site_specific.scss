@@ -178,6 +178,9 @@ body.data {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        a {
+            text-underline-position: under;
+        }
     }
 }
 body.type-team {
