@@ -85,9 +85,15 @@ $(document).ready(function () {
   $("select").change(function(){
     var censusID1 = $( "#census1" ).val();
     var censusID2 = $( "#census2" ).val();
-    if (censusID2 <= censusID1) {
+   
+    if (censusID2 <= censusID1 && censusID1 != 1870) {
       console.log('Invalid range');
       censusID2 = Number(censusID1) + 10
+      $("select#census2").val(censusID2);
+    };
+    if (censusID2 <= censusID1 && censusID1 == 1870) {
+      console.log('Invalid range');
+      censusID2 = Number(censusID1) + 30
       $("select#census2").val(censusID2);
     };
 
@@ -99,7 +105,8 @@ $(document).ready(function () {
         }
     });
     var fileLinkYears = '&nbsp;' + censusID1 + '—' + censusID2;
-    var fileLinkTitle = 'Crosswalk_' + censusID1 + '_' + censusID2 + '.zip';
+    var fileLinkTitle = '<a href="https://economics.princeton.edu/censuslinkingproject/' + 
+    censusID1 + '-' + censusID2 + '.zip">' + censusID1 + '-' + censusID2 + '.zip</a>';
     
     console.log(fileLinkTitle); 
    // $('.file-title').empty();
