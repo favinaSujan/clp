@@ -79,7 +79,7 @@
 
 $(document).ready(function () {
 
-  $('.years').append('Crosswalk_1850_1860.zip');
+  $('.years').append('<a href="https://economics.princeton.edu/censuslinkingproject/1850-1860.zip">1850-1860.zip</a>');
   $('.file-title').append('&nbsp;1850-1860');
 
   $("select").change(function(){
