@@ -75,14 +75,14 @@ body.home {
        -webkit-animation-name: fadeInDown;
        animation-name: fadeInDown;
        animation-duration: 1.4s;
-       animation-delay: 3s;
+       animation-delay: 4s;
        -webkit-animation-fill-mode: both;
        animation-fill-mode: both;
        .wordmark, .nav-menu {
             -webkit-animation-name: fadeInDown;
             animation-name: fadeInDown;
             animation-duration: 1.4s;
-            animation-delay: 3.25s;
+            animation-delay: 4.25s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
        }
@@ -96,6 +96,29 @@ body.home {
         #census-graphic {
             order: 1;
         }
+        svg#tophalf {
+            //  opacity: 0.6;
+              animation: fadeInLeft 3s ease, opaque 5.5s ease;
+              //animation-delay: 5s;
+          }
+        
+        svg#bottomhalf {
+          //  opacity: 0.6;
+            animation: fadeInRight 3s ease, opaque 5.5s ease;
+            //animation-delay: 5s;
+        }
+        @keyframes opaque {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.6;
+            }
+            80% {
+                opacity: 1;
+            }
+        }
+
         @include media-breakpoint-up(lg) {
             height: 78vh;
             margin-bottom: 22vh;
@@ -469,6 +492,10 @@ body.type-contact {
       .animated.delay-4s {
         -webkit-animation-delay: 4s;
         animation-delay: 4s;
+      }
+      .animated.delay-4-25s {
+        -webkit-animation-delay: 4.25s;
+        animation-delay: 4.25s;
       }
 
       .animated.delay-4-5s {
