@@ -74,15 +74,15 @@ body.home {
     nav {
        -webkit-animation-name: fadeInDown;
        animation-name: fadeInDown;
-       animation-duration: 1.4s;
-       animation-delay: 4s;
+       animation-duration: 800ms;
+       animation-delay: 3.5s;
        -webkit-animation-fill-mode: both;
        animation-fill-mode: both;
        .wordmark, .nav-menu {
             -webkit-animation-name: fadeInDown;
             animation-name: fadeInDown;
-            animation-duration: 1.4s;
-            animation-delay: 4.25s;
+            animation-duration: 800ms;
+            animation-delay: 3.75s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
        }
@@ -98,13 +98,13 @@ body.home {
         }
         svg#tophalf {
             //  opacity: 0.6;
-              animation: fadeInLeft 3s ease, opaque 5.5s ease;
+              animation: fadeInLeft 2.5s ease, opaque 5.5s ease;
               //animation-delay: 5s;
           }
         
         svg#bottomhalf {
           //  opacity: 0.6;
-            animation: fadeInRight 3s ease, opaque 5.5s ease;
+            animation: fadeInRight 2.5s ease, opaque 5.5s ease;
             //animation-delay: 5s;
         }
         @keyframes opaque {
@@ -284,8 +284,8 @@ body.type-contact {
     @keyframes fadeInUp {
         from {
           opacity: 0;
-          -webkit-transform: translate3d(0, 75%, 0);
-          transform: translate3d(0, 75%, 0);
+          -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
         }
       
         to {
@@ -488,6 +488,12 @@ body.type-contact {
         -webkit-animation-delay: 3.5s;
         animation-delay: 3.5s;
       }
+
+      .animated.delay-3-75s {
+        -webkit-animation-delay: 3.5s;
+        animation-delay: 3.5s;
+      }
+      
       
       .animated.delay-4s {
         -webkit-animation-delay: 4s;
