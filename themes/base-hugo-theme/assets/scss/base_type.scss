@@ -1,6 +1,9 @@
 h1 {
     @include aktiv-regular;
-    font-size: 7rem;
+    font-size: 6rem;
+    @include media-breakpoint-up(md) {
+      font-size: 7rem;
+    }
     color: #343434;
 }
 h2,
