@@ -576,6 +576,7 @@ nav.navbar-light {
   width: 320px;
   position: fixed;
   z-index: 3000;
+  opacity: 0;
   top: 0;
   right: 0;
   background-color: $white;
@@ -595,6 +596,7 @@ nav.navbar-light {
   }
 
   &.show {
+    opacity: 1;
     margin-right: 0;
   }
 
