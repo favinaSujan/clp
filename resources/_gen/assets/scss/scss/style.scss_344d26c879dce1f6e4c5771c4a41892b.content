@@ -19310,9 +19310,14 @@ body.home .row.cta {
   background-color: #fff;
   height: 22vh;
   width: 100%;
-  position: absolute;
   bottom: 0;
   min-height: 144px;
+}
+
+@media (min-width: 768px) {
+  body.home .row.cta {
+    position: absolute;
+  }
 }
 
 body.home .row.cta a.data-cta {
@@ -19335,10 +19340,16 @@ body.home .row.cta a.data-cta:hover::after {
 }
 
 body.home .row.cta .data-cta-heading {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+@media (min-width: 768px) {
+  body.home .row.cta .data-cta-heading {
+    font-size: 5rem;
+  }
 }
 
 body.home .row.cta .data-cta p {
@@ -19942,7 +19953,13 @@ div, p, span {
 }
 
 .largetext {
-  font-size: 2.326rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .largetext {
+    font-size: 2.326rem;
+  }
 }
 
 .orangetext {
@@ -19970,9 +19987,15 @@ select {
 }
 
 .pullquote {
-  font-size: 4rem;
+  font-size: 3rem;
   border-top: 1px solid #FF6105;
   border-bottom: 1px solid #FF6105;
+}
+
+@media (min-width: 768px) {
+  .pullquote {
+    font-size: 4rem;
+  }
 }
 
 @media (min-width: 768px) {
