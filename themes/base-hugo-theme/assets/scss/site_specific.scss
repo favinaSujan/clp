@@ -20,13 +20,14 @@ nav.inner-page-nav {
         font-size: 1.6rem;
         &:hover {
             color: $clppurple;
-            text-decoration: underline;
-            text-underline-position: under;
+           // text-decoration: underline;
+           // text-underline-position: under;
+           border-bottom: 1px solid $clppurple;
         }
         &.active {
             color: $clppurple;
-            text-decoration: underline;
-            text-underline-position: under;
+           // text-decoration: underline;
+            border-bottom: 1px solid $clppurple;
         }
     }
 }
@@ -75,14 +76,14 @@ body.home {
        -webkit-animation-name: fadeInDown;
        animation-name: fadeInDown;
        animation-duration: 800ms;
-       animation-delay: 3.5s;
+       animation-delay: 2.5s;
        -webkit-animation-fill-mode: both;
        animation-fill-mode: both;
        .wordmark, .nav-menu {
             -webkit-animation-name: fadeInDown;
             animation-name: fadeInDown;
             animation-duration: 800ms;
-            animation-delay: 3.75s;
+            animation-delay: 2.5s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
        }
@@ -224,7 +225,8 @@ body.data {
         flex-direction: column;
         justify-content: flex-end;
         a {
-            text-underline-position: under;
+            text-decoration: none;
+            border-bottom: 1px solid $clppurple;
         }
     }
 }
@@ -284,6 +286,31 @@ body.type-contact {
     animation-name: fadeInDown;
   } */
       
+    @-webkit-keyframes fadeIn {
+        from {
+        opacity: 0;
+        }
+    
+        to {
+        opacity: 1;
+        }
+    }
+    
+    @keyframes fadeIn {
+        from {
+        opacity: 0;
+        }
+    
+        to {
+        opacity: 1;
+        }
+    }
+    
+    .fadeIn {
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+    }
+
     @keyframes fadeInUp {
         from {
           opacity: 0;
@@ -303,12 +330,24 @@ body.type-contact {
         animation-duration: 1.8s;
       }
 
-
+     @-webkit-keyframes fadeInUpLess {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(0, 10%, 0);
+          transform: translate3d(0, 25%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
     @keyframes fadeInUpLess {
         from {
           opacity: 0;
-          -webkit-transform: translate3d(0, 50%, 0);
-          transform: translate3d(0, 50%, 0);
+          -webkit-transform: translate3d(0, 25%, 0);
+          transform: translate3d(0, 25%, 0);
         }
       
         to {
@@ -320,7 +359,40 @@ body.type-contact {
     .fadeInUpLess {
         -webkit-animation-name: fadeInUpLess;
         animation-name: fadeInUpLess;
-        animation-duration: 1.8s;
+        animation-duration: 1.4s !important;
+      }  
+
+      @-webkit-keyframes fadeInDown {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      
+      .fadeInDown {
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
       }  
       
 
@@ -355,6 +427,38 @@ body.type-contact {
         -webkit-animation-name: fadeInLeft;
         animation-name: fadeInLeft;
       }
+
+      @-webkit-keyframes fadeInLeftLess {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(-25%, 0, 0);
+          transform: translate3d(-25%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+    @keyframes fadeInLeftLess {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(-25%, 0, 0);
+          transform: translate3d(-25%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+    .fadeInLeftLess {
+        -webkit-animation-name: fadeInLeftLess;
+        animation-name: fadeInLeftLess;
+        animation-duration: 1.4s !important;
+      }  
     
 
 
@@ -388,8 +492,40 @@ body.type-contact {
         -webkit-animation-name: fadeInRight;
         animation-name: fadeInRight;
       }
-      
 
+      // Fade In Right Less
+      
+      @-webkit-keyframes fadeInRightLess {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(25%, 0, 0);
+          transform: translate3d(25%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      @keyframes fadeInRightLess {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(25%, 0, 0);
+          transform: translate3d(25%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      .fadeInRightLess {
+        -webkit-animation-name: fadeInRightLess;
+        animation-name: fadeInRightLess;
+       // animation-duration: 1.4s !important;
+      }
 
 
     .animated {
