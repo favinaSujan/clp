@@ -64,11 +64,14 @@ h5 {
 
 div, p, span {
     @include aktiv-light;
-    font-size: 1.4rem;
-    line-height: 1.5;
+    font-size: 1.5rem;
+    line-height: 1.55;
     .datamenu {
         font-size: 1.5rem;
     }
+}
+.footnote {
+  font-size: 1.4rem;
 }
 .datamenu label {
     font-size: 1.5rem;
@@ -125,7 +128,7 @@ select {
 }
 .f-16 {
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 .memberName {
   font-size: 3rem;
