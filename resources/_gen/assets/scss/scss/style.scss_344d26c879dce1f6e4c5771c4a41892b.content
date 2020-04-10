@@ -19774,12 +19774,16 @@ div, p, span {
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-size: 1.5rem;
+  line-height: 1.55;
 }
 
 div .datamenu, p .datamenu, span .datamenu {
   font-size: 1.5rem;
+}
+
+.footnote {
+  font-size: 1.4rem;
 }
 
 .datamenu label {
@@ -19851,7 +19855,7 @@ select {
 
 .f-16 {
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .memberName {

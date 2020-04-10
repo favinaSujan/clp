@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Hyperobjekt"
+title = "Census Linking Project"
 theme = "base-hugo-theme"
 googleAnalytics = ""
 paginate = 5
