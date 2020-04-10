@@ -578,12 +578,12 @@ nav.navbar-light {
   z-index: 3000;
   opacity: 0;
   top: 0;
-  right: 0;
+  right: -320px;
   background-color: $white;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
-  margin-right: -320px;
+  //margin-right: -320px;
   //text-align: center;
 
   @include media-breakpoint-up(mm) {
@@ -597,7 +597,7 @@ nav.navbar-light {
 
   &.show {
     opacity: 1;
-    margin-right: 0;
+    right: 0;
   }
 
   .closebtn {
