@@ -19310,6 +19310,7 @@ body.home .row.cta {
   background-color: #fff;
   height: 22vh;
   width: 100%;
+  position: relative;
   bottom: 0;
   min-height: 144px;
 }
@@ -19834,8 +19835,14 @@ h1 {
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 6rem;
   color: #343434;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 7rem;
+  }
 }
 
 h2,
