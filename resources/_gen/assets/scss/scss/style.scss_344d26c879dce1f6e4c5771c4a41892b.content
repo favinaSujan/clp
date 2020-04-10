@@ -19171,6 +19171,7 @@ nav.inner-page-nav .wordmark a {
 nav.inner-page-nav .wordmark a:hover {
   text-decoration: none;
   color: #FF6105;
+  border-bottom: none;
 }
 
 nav.inner-page-nav .wordmark a img {
