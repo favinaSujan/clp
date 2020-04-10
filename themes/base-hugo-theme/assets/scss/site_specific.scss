@@ -137,7 +137,9 @@ body.home {
         background-color: #fff;
         height: 22vh;
         width: 100%;
-        position: absolute;
+        @include media-breakpoint-up(md){
+            position: absolute;
+        }
         bottom: 0;
         min-height: 144px;
         a.data-cta {
@@ -162,7 +164,10 @@ body.home {
             }
         }
         .data-cta-heading {
-            font-size: 5rem;
+            font-size: 4rem;
+            @include media-breakpoint-up(md) {
+                font-size: 5rem;
+            }
             @include aktiv-regular;
         }
         .data-cta p {

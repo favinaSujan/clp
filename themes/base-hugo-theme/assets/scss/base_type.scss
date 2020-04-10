@@ -96,7 +96,10 @@ div, p, span {
     color: #343434;
 }
 .largetext {
-  font-size: 2.326rem;
+  font-size: 2rem;
+  @include media-breakpoint-up(md) {
+    font-size: 2.326rem;
+  }
 }
 .orangetext {
   color: $clporange;
@@ -116,7 +119,10 @@ select {
     color: #6247AA;
 }
 .pullquote {
-  font-size: 4rem;
+  font-size: 3rem;
+  @include media-breakpoint-up(md) {
+    font-size: 4rem;
+  }
   border-top: 1px solid $clporange;
   border-bottom: 1px solid $clporange;
   @include media-breakpoint-up(md){
