@@ -140,6 +140,51 @@ $(document).ready(function () {
 
 });
 
+// ANIME ------------------------------------------ /
+
+$(document).ready(function () {
+  anime({ // Top half of graphic
+    targets: ['svg#tophalf path'],
+    opacity: [0, 1],
+    easing: 'easeOutCubic',
+    duration: 1500,
+    delay: anime.stagger(100, {start: 300}) // increase delay for each element.
+  });
+
+  anime({ // Bottom half of graphic
+    targets: ['svg#bottomhalf path'],
+    opacity: [0, 1],
+    easing: 'easeOutCubic',
+    duration: 1500,
+    delay: anime.stagger(100, {start: 2000}) // increase delay for each element.
+  });
+
+  anime.set(['svg#tophalf line','svg#tophalf rect'], {
+   // translateX: 0
+  });
+
+  anime({ // Bottom half of graphic
+    targets: ['svg#tophalf line', 'svg#tophalf rect'],
+    opacity: [0, 1],
+  //  translateX: 0,
+    easing: 'easeOutCubic',
+    duration: 4000,
+    delay: 3500
+    //delay: anime.stagger(200, {start: 100}) // increase delay for each element.
+  });
+
+  anime({ // Bottom half of graphic
+    targets: ['svg#bottomhalf line', 'svg#bottomhalf rect'],
+    opacity: [0, 1],
+    easing: 'easeOutCubic',
+    duration: 4000,
+    delay: 3500
+  // delay: anime.stagger(100, {start: 2000}) // increase delay for each element.
+  });
+
+});
+
+
 
    
   });

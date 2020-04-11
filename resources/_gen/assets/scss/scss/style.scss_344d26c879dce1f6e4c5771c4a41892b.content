@@ -19239,24 +19239,23 @@ nav.inner-page-nav a.active {
 
 body.home {
   background-color: #F4FCFB;
-}
-
-body.home nav {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-  animation-duration: 800ms;
-  animation-delay: 2.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-body.home nav .wordmark, body.home nav .nav-menu {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-  animation-duration: 800ms;
-  animation-delay: 2.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  /* nav {
+       -webkit-animation-name: fadeInDown;
+       animation-name: fadeInDown;
+       animation-duration: 800ms;
+       animation-delay: 2.5s;
+       -webkit-animation-fill-mode: both;
+       animation-fill-mode: both;
+       .wordmark, .nav-menu {
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+            animation-duration: 800ms;
+            animation-delay: 2.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+       }
+       
+    } */
 }
 
 body.home .row.hero {
@@ -19269,14 +19268,6 @@ body.home .row.hero #herotext {
 
 body.home .row.hero #census-graphic {
   order: 1;
-}
-
-body.home .row.hero svg#tophalf {
-  animation: fadeInLeft 2.5s ease, opaque 5.5s ease;
-}
-
-body.home .row.hero svg#bottomhalf {
-  animation: fadeInRight 2.5s ease, opaque 5.5s ease;
 }
 
 @keyframes opaque {
