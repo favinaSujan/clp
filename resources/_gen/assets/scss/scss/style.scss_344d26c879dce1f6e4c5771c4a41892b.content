@@ -19205,7 +19205,7 @@ nav.inner-page-nav a.active {
 
 #show-crosswalk .years.rollover1 {
   transform: translateY(0px);
-  animation: rollover1 1.4s ease;
+  animation: rollover1 1.2s ease-in-out;
   opacity: 1;
 }
 
@@ -19213,14 +19213,17 @@ nav.inner-page-nav a.active {
   0% {
     transform: translateY(0px);
   }
+  38% {
+    opacity: 0;
+  }
   40% {
     opacity: 0;
   }
   41% {
-    transform: translateY(-24px);
+    transform: translateY(-32px);
   }
   42% {
-    transform: translateY(18px);
+    transform: translateY(34px);
   }
   56% {
     opacity: 1;
