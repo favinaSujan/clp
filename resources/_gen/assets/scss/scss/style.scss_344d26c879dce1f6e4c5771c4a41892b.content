@@ -19199,6 +19199,10 @@ nav.inner-page-nav a.active {
   border-bottom: 1px solid #6247AA;
 }
 
+#show-crosswalk .years {
+  line-height: 1.4;
+}
+
 #show-crosswalk .years.show {
   display: block;
 }
@@ -19418,7 +19422,7 @@ body.data #show-crosswalk {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 body.data #show-crosswalk a {

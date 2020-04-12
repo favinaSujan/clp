@@ -156,14 +156,14 @@ $(document).ready(function () {
     duration: 1500,
     delay: anime.stagger(stagger, {start: 300}) // increase delay for each element.
   });
-  anime.set([,'svg#bottomhalf rect','.sidetext', 'svg g'], {
+  anime.set(['.sidetext', 'svg g'], {
     opacity: 0,
   });
   anime({ 
-    targets: ['svg#bottomhalf rect','.sidetext', 'svg g'],
+    targets: ['.sidetext', 'svg g'],
     opacity: [0, 1],
     easing: 'easeInCubic',
-    duration: 2000,
+    duration: 1500,
     delay: 1000,
    // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
