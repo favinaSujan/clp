@@ -142,45 +142,53 @@ $(document).ready(function () {
 
 // ANIME ------------------------------------------ /
 
+var stagger = 60;
+
 $(document).ready(function () {
   anime({ // Top half of graphic
-    targets: ['svg#tophalf path'],
+    targets: ['svg .tophalf', 'svg .bottomhalf'],
     opacity: [0, 1],
     easing: 'easeOutCubic',
     duration: 1500,
-    delay: anime.stagger(100, {start: 300}) // increase delay for each element.
+    delay: anime.stagger(stagger, {start: 300}) // increase delay for each element.
   });
 
-  anime({ // Bottom half of graphic
-    targets: ['svg#bottomhalf path'],
+  anime({ 
+    targets: ['svg#tophalf rect','svg#bottomhalf rect','.sidetext'],
     opacity: [0, 1],
     easing: 'easeOutCubic',
-    duration: 1500,
-    delay: anime.stagger(100, {start: 2000}) // increase delay for each element.
+    duration: 6000,
+   // delay: 3500,
+   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
 
-  anime.set(['svg#tophalf line','svg#tophalf rect'], {
-   // translateX: 0
+ /* anime.set(['svg#tophalf'], {
+    translateX: -100,
   });
 
-  anime({ // Bottom half of graphic
-    targets: ['svg#tophalf line', 'svg#tophalf rect'],
+  anime({ 
+    targets: ['svg#tophalf'],
+    sopacity: [0, 1],
+    translateX: 0,
+    easing: 'linear',
+    duration: 1000,
+   // delay: 3500,
+   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
+  });
+
+  anime.set(['svg#bottomhalf'], {
+    translateX: 100,
+  });
+
+  anime({ 
+    targets: ['svg#bottomhalf'],
     opacity: [0, 1],
-  //  translateX: 0,
-    easing: 'easeOutCubic',
-    duration: 4000,
-    delay: 3500
-    //delay: anime.stagger(200, {start: 100}) // increase delay for each element.
-  });
-
-  anime({ // Bottom half of graphic
-    targets: ['svg#bottomhalf line', 'svg#bottomhalf rect'],
-    opacity: [0, 1],
-    easing: 'easeOutCubic',
-    duration: 4000,
-    delay: 3500
-  // delay: anime.stagger(100, {start: 2000}) // increase delay for each element.
-  });
+    translateX: 0,
+    easing: 'linear',
+    duration: 1000,
+    delay: 3500,
+    delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
+  }); */
 
 });
 
