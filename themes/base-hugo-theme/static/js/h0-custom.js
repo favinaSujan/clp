@@ -163,8 +163,8 @@ $(document).ready(function () {
     targets: ['.sidetext', 'svg g'],
     opacity: [0, 1],
     easing: 'easeInCubic',
-    duration: 1500,
-    delay: 1000,
+    duration: 2000,
+    delay: 2500,
    // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
 
