@@ -19222,7 +19222,7 @@ nav.inner-page-nav a.active {
   42% {
     transform: translateY(18px);
   }
-  60% {
+  56% {
     opacity: 1;
   }
   100% {
