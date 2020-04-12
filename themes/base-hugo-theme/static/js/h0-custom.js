@@ -156,15 +156,15 @@ $(document).ready(function () {
     duration: 1500,
     delay: anime.stagger(stagger, {start: 300}) // increase delay for each element.
   });
-  anime.set(['svg#tophalf rect','svg#bottomhalf rect','.sidetext'], {
+  anime.set([,'svg#bottomhalf rect','.sidetext', 'svg g'], {
     opacity: 0,
   });
   anime({ 
-    targets: ['svg#tophalf rect','svg#bottomhalf rect','.sidetext'],
+    targets: ['svg#bottomhalf rect','.sidetext', 'svg g'],
     opacity: [0, 1],
     easing: 'easeInCubic',
     duration: 2000,
-    //delay: 1000,
+    delay: 1000,
    // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
 
