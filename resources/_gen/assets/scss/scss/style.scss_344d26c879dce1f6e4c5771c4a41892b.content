@@ -19205,6 +19205,8 @@ nav.inner-page-nav a.active {
 
 #show-crosswalk .years.rollover1 {
   transform: translateY(0px);
+  animation: rollover1 1.4s ease;
+  opacity: 1;
 }
 
 @keyframes rollover1 {
@@ -19215,17 +19217,23 @@ nav.inner-page-nav a.active {
     opacity: 0;
   }
   41% {
-    transform: translateY(-5px);
+    transform: translateY(-24px);
   }
   42% {
-    transform: translateY(5px);
+    transform: translateY(18px);
   }
-  70% {
+  60% {
     opacity: 1;
   }
   100% {
     transform: translateY(0px);
   }
+}
+
+#show-crosswalk .years.rollover2 {
+  animation: rollover2 1s ease;
+  animation-delay: 2s;
+  transform: translateY(0px);
 }
 
 @keyframes rollover2 {

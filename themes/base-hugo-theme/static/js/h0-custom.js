@@ -142,9 +142,10 @@ $(document).ready(function () {
 
 // ANIME ------------------------------------------ /
 
-var stagger = 60;
+
 
 $(document).ready(function () {
+  var stagger = 60;
   anime.set(['svg .tophalf', 'svg .bottomhalf'], {
     opacity: 0,
   });
@@ -163,7 +164,7 @@ $(document).ready(function () {
     opacity: [0, 1],
     easing: 'easeInCubic',
     duration: 2000,
-   // delay: 3500,
+    //delay: 1000,
    // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
 
