@@ -156,8 +156,8 @@ $(document).ready(function () {
   anime({ 
     targets: ['svg#tophalf rect','svg#bottomhalf rect','.sidetext'],
     opacity: [0, 1],
-    easing: 'easeOutCubic',
-    duration: 6000,
+    easing: 'easeInCubic',
+    duration: 2000,
    // delay: 3500,
    // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
