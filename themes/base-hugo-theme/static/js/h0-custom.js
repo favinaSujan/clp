@@ -163,7 +163,7 @@ $(document).ready(function () {
   });
 
   anime.set(['#herotext p'], {
-    //translateY: 40,
+    opacity: 0,
   });
 
   anime({ 
