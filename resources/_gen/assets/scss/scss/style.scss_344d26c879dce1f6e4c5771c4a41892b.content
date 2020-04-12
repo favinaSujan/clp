@@ -19209,7 +19209,7 @@ nav.inner-page-nav a.active {
 
 #show-crosswalk .years.rollover1 {
   transform: translateY(0px);
-  animation: rollover1 1.2s ease-in-out;
+  animation: rollover1 0.8s ease-in-out;
   opacity: 1;
 }
 
