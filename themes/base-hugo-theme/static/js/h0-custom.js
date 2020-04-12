@@ -145,6 +145,9 @@ $(document).ready(function () {
 var stagger = 60;
 
 $(document).ready(function () {
+  anime.set(['svg .tophalf', 'svg .bottomhalf'], {
+    opacity: 0,
+  });
   anime({ // Top half of graphic
     targets: ['svg .tophalf', 'svg .bottomhalf'],
     opacity: [0, 1],
@@ -152,7 +155,9 @@ $(document).ready(function () {
     duration: 1500,
     delay: anime.stagger(stagger, {start: 300}) // increase delay for each element.
   });
-
+  anime.set(['svg#tophalf rect','svg#bottomhalf rect','.sidetext'], {
+    opacity: 0,
+  });
   anime({ 
     targets: ['svg#tophalf rect','svg#bottomhalf rect','.sidetext'],
     opacity: [0, 1],
