@@ -162,6 +162,19 @@ $(document).ready(function () {
    // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
 
+  anime.set(['#herotext p'], {
+    //translateY: 40,
+  });
+
+  anime({ 
+    targets: ['#herotext p'],
+    opacity: [0, 1],
+   // translateY: 0,
+    easing: 'easeInCubic',
+    duration: 1400,
+   // delay: 3500,
+   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
+  });
  /* anime.set(['svg#tophalf'], {
     translateX: -100,
   });
