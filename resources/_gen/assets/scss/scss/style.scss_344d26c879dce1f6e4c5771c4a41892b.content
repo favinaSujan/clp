@@ -20018,6 +20018,7 @@ div, p, span {
 
 .clp-name {
   font-size: 2.8rem;
+  opacity: 0;
 }
 
 @media (min-width: 768px) {
@@ -20027,6 +20028,7 @@ div, p, span {
 }
 
 .supporting-copy {
+  opacity: 0;
   font-size: 2rem;
 }
 
