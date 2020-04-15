@@ -104,6 +104,18 @@ div, p, span {
     font-size: 2.326rem;
   }
 }
+.clp-name {
+  font-size: 2.8rem;
+  @include media-breakpoint-up(md) {
+    font-size: 3.2rem;
+  }
+}
+.supporting-copy {
+  font-size: 2rem;
+  @include media-breakpoint-up(md) {
+    font-size: 2rem;
+  }
+}
 .orangetext {
   color: $clporange;
 }

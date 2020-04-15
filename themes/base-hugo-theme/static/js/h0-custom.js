@@ -145,6 +145,21 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
+
+  anime.set(['#census-graphic svg'], {
+   // opacity: 0,
+    translateY: 20,
+  });
+
+  anime({ // Top half of graphic
+    targets: ['#census-graphic svg'],
+    translateY: 0,
+    easing: 'easeOutCubic',
+    duration: 2000,
+    delay: 0,
+   // delay: anime.stagger(stagger, {start: 300}) // increase delay for each element.
+  });
+
   var stagger = 60;
   anime.set(['svg .tophalf', 'svg .bottomhalf'], {
     opacity: 0,
@@ -153,7 +168,7 @@ $(document).ready(function () {
     targets: ['svg .tophalf', 'svg .bottomhalf'],
     opacity: [0, 1],
     easing: 'easeOutCubic',
-    duration: 1500,
+    duration: 1250,
     delay: anime.stagger(stagger, {start: 300}) // increase delay for each element.
   });
   anime.set(['.sidetext', 'svg g'], {
@@ -163,51 +178,38 @@ $(document).ready(function () {
     targets: ['.sidetext', 'svg g'],
     opacity: [0, 1],
     easing: 'easeInCubic',
-    duration: 2000,
-    delay: 2500,
+    duration: 1250,
+    delay: 1500,
    // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
 
-  anime.set(['#herotext p'], {
+  anime.set(['#herotext span.clp-name'], {
     opacity: 0,
+    translateX: -60,
   });
 
   anime({ 
-    targets: ['#herotext p'],
+    targets: ['#herotext span.clp-name'],
     opacity: [0, 1],
-   // translateY: 0,
+    translateX: 0,
+    easing: 'easeOutSine',
+    duration: 1700,
+    delay: 500,
+   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
+  });
+  anime.set(['#herotext span'], {
+   // translateY: 50,
+  });
+  anime({ 
+    targets: ['#herotext span.supporting-copy'],
+   // opacity: [0, 1],
+  //  translateY: 20,
     easing: 'easeInCubic',
     duration: 1400,
-   // delay: 3500,
-   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
-  });
- /* anime.set(['svg#tophalf'], {
-    translateX: -100,
-  });
-
-  anime({ 
-    targets: ['svg#tophalf'],
-    sopacity: [0, 1],
-    translateX: 0,
-    easing: 'linear',
-    duration: 1000,
-   // delay: 3500,
-   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
-  });
-
-  anime.set(['svg#bottomhalf'], {
-    translateX: 100,
-  });
-
-  anime({ 
-    targets: ['svg#bottomhalf'],
-    opacity: [0, 1],
-    translateX: 0,
-    easing: 'linear',
-    duration: 1000,
     delay: 3500,
-    delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
-  }); */
+   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
+  });
+
 
 });
 

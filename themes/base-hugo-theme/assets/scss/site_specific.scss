@@ -45,7 +45,7 @@ nav.inner-page-nav {
         }
         &.rollover1 {
             transform: translateY(0px);
-            animation: rollover1 0.8s ease-in-out;
+            animation: rollover1 1.1s ease-in-out;
             opacity: 1;
             @keyframes rollover1 {
                 0% {transform: translateY(0px)};
@@ -78,15 +78,15 @@ body.home {
     nav {
        -webkit-animation-name: fadeInDown;
        animation-name: fadeInDown;
-       animation-duration: 800ms;
-       animation-delay: 3s;
+       animation-duration: 1200ms;
+       animation-delay: 6s;
        -webkit-animation-fill-mode: both;
        animation-fill-mode: both;
        .wordmark, .nav-menu {
             -webkit-animation-name: fadeInDown;
             animation-name: fadeInDown;
-            animation-duration: 800ms;
-            animation-delay: 3.5s;
+            animation-duration: 1200ms;
+            animation-delay: 6s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
        }
@@ -404,6 +404,38 @@ body.type-contact {
         animation-name: fadeInDown;
       }  
       
+      @-webkit-keyframes fadeInDownLess {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -25%, 0);
+          transform: translate3d(0, -25%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      
+      @keyframes fadeInDownLess {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -25%, 0);
+          transform: translate3d(0, -25%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      
+      .fadeInDownLess {
+        -webkit-animation-name: fadeInDownLess;
+        animation-name: fadeInDownLess;
+      }  
 
 
     @-webkit-keyframes fadeInLeft {
@@ -660,6 +692,16 @@ body.type-contact {
       .animated.delay-5s {
         -webkit-animation-delay: 5s;
         animation-delay: 5s;
+      }
+
+      .animated.delay-5s {
+        -webkit-animation-delay: 5.5s;
+        animation-delay: 5.5s;
+      }
+
+      .animated.delay-5s {
+        -webkit-animation-delay: 6s;
+        animation-delay: 6s;
       }
 
 
