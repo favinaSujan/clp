@@ -185,7 +185,7 @@ $(document).ready(function () {
 
   anime.set(['#herotext span.clp-name'], {
     opacity: 0,
-    translateX: -60,
+    translateX: -10,
   });
 
   anime({ 
