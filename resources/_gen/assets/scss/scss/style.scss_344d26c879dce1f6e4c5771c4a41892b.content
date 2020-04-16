@@ -19260,7 +19260,7 @@ body.home nav {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   animation-duration: 1200ms;
-  animation-delay: 6s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -19269,7 +19269,7 @@ body.home nav .wordmark, body.home nav .nav-menu {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   animation-duration: 1200ms;
-  animation-delay: 6s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -20017,13 +20017,13 @@ div, p, span {
 }
 
 .clp-name {
-  font-size: 2.8rem;
+  font-size: 2rem;
   opacity: 0;
 }
 
 @media (min-width: 768px) {
   .clp-name {
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
 }
 
