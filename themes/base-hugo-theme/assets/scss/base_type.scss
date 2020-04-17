@@ -130,7 +130,12 @@ select {
     background-repeat: no-repeat;
     @include aktiv-regular;
     font-size: 4.2rem;
+    margin-left: 0;
+    padding-left: 0;
     @include media-breakpoint-up(md) {
+      font-size: 4.4rem;
+    }
+    @include media-breakpoint-up(xl) {
       font-size: 5rem;
     }
     color: #6247AA;

@@ -19399,7 +19399,7 @@ body.data .container-fluid {
 }
 
 body.data main {
-  padding-bottom: 224px;
+  padding-bottom: 128px;
 }
 
 body.data .select-label {
@@ -20053,10 +20053,18 @@ select {
   font-weight: 400;
   font-style: normal;
   font-size: 4.2rem;
+  margin-left: 0;
+  padding-left: 0;
   color: #6247AA;
 }
 
 @media (min-width: 768px) {
+  select {
+    font-size: 4.4rem;
+  }
+}
+
+@media (min-width: 1280px) {
   select {
     font-size: 5rem;
   }
