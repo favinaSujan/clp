@@ -19983,6 +19983,8 @@ select {
   font-weight: 400;
   font-style: normal;
   font-size: 4.2rem;
+  margin-left: 0;
+  padding-left: 0;
   color: #6247AA;
 }
 
