@@ -99,6 +99,9 @@ body.home {
         }
         #census-graphic {
             order: 1;
+            svg .tophalf, svg .bottomhalf {
+              opacity: 0;
+            }
         }
         svg#tophalf {
             //  opacity: 0.6;

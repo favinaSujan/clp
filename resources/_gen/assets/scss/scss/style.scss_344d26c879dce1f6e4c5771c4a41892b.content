@@ -19286,6 +19286,10 @@ body.home .row.hero #census-graphic {
   order: 1;
 }
 
+body.home .row.hero #census-graphic svg .tophalf, body.home .row.hero #census-graphic svg .bottomhalf {
+  opacity: 0;
+}
+
 @keyframes opaque {
   0% {
     opacity: 0;
