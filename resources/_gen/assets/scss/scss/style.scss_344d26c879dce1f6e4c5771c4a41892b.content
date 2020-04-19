@@ -19392,7 +19392,7 @@ body.data .container-fluid {
 }
 
 body.data main {
-  padding-bottom: 128px;
+  padding-bottom: 224px;
 }
 
 body.data .select-label {
@@ -19989,12 +19989,6 @@ select {
 }
 
 @media (min-width: 768px) {
-  select {
-    font-size: 4.4rem;
-  }
-}
-
-@media (min-width: 1280px) {
   select {
     font-size: 5rem;
   }
