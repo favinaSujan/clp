@@ -194,9 +194,9 @@ $(document).ready(function () {
   anime({ 
     targets: ['#herotext span.supporting-copy'],
     opacity: [0, 1],
-    easing: 'easeOutSine',
-    duration: 2000,
-    delay: 3500,
+    easing: 'easeInOutSine',
+    duration: 1400,
+    delay: 3200,
   });
   anime.set(['.row.cta'], {
     translateY: '25%', 
@@ -207,7 +207,7 @@ $(document).ready(function () {
     translateY: 0, 
     easing: 'easeOutSine',
     duration: 2000,
-    delay: 3500,
+    delay: 3200,
   });
   anime.set(['body.home nav'], {
     translateY: '-50%', 
@@ -218,7 +218,7 @@ $(document).ready(function () {
     translateY: 0, 
     easing: 'easeOutSine',
     duration: 1400,
-    delay: 3500,
+    delay: 3200,
   });
 
 });
