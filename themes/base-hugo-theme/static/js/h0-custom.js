@@ -157,7 +157,6 @@ $(document).ready(function () {
     easing: 'easeOutCubic',
     duration: 2000,
     delay: 0,
-   // delay: anime.stagger(stagger, {start: 300}) // increase delay for each element.
   });
 
   var stagger = 60;
@@ -180,36 +179,47 @@ $(document).ready(function () {
     easing: 'easeInCubic',
     duration: 1250,
     delay: 1500,
-   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
   });
 
-  anime.set(['#herotext span.clp-name'], {
+  anime.set(['#herotext span.clp-name', '#herotext span.supporting-copy', '.row.cta', 'body.home nav' ], {
     opacity: 0,
-    translateX: -40,
   });
-
   anime({ 
     targets: ['#herotext span.clp-name'],
     opacity: [0, 1],
-    translateX: 0,
     easing: 'easeOutSine',
     duration: 1700,
     delay: 500,
-   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
-  });
-  anime.set(['#herotext span'], {
-   // translateY: 50,
   });
   anime({ 
     targets: ['#herotext span.supporting-copy'],
-   // opacity: [0, 1],
-  //  translateY: 20,
-    easing: 'easeInCubic',
+    opacity: [0, 1],
+    easing: 'easeInOutSine',
     duration: 1400,
-    delay: 3500,
-   // delay: anime.stagger(stagger, {start: 4000}) // increase delay for each element.
+    delay: 3200,
   });
-
+  anime.set(['.row.cta'], {
+    translateY: '25%', 
+  });
+  anime({ 
+    targets: ['.row.cta'],
+    opacity: [0, 1],
+    translateY: 0, 
+    easing: 'easeOutSine',
+    duration: 2000,
+    delay: 3200,
+  });
+  anime.set(['body.home nav'], {
+    translateY: '-50%', 
+  });
+  anime({ 
+    targets: ['body.home nav'],
+    opacity: [0, 1],
+    translateY: 0, 
+    easing: 'easeOutSine',
+    duration: 1400,
+    delay: 3200,
+  });
 
 });
 
