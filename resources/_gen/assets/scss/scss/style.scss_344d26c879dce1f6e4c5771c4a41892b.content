@@ -19403,6 +19403,10 @@ body.data .year-start {
   margin-left: 6px;
 }
 
+body.data .finalyear {
+  padding-left: 4px;
+}
+
 body.data .view-as {
   margin-left: 22px;
 }
@@ -19999,6 +20003,19 @@ select {
 @media (min-width: 768px) {
   select {
     font-size: 5rem;
+  }
+}
+
+select#census1:focus, select#census2:focus {
+  outline: 2px dotted #9a9a9a;
+  padding: .4rem 2.4rem .4rem .4rem;
+  margin: -.4rem 0rem -.4rem -.4rem;
+}
+
+@media (min-width: 768px) {
+  select#census1:focus, select#census2:focus {
+    padding: 4px 2.4rem 4px 4px;
+    margin: -.4rem 0 -.4rem -.4rem;
   }
 }
 
