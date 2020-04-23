@@ -241,6 +241,16 @@ body.type-team {
     .container-fluid {
         background-color: #F4FCFB;
         }
+    .memberName  {
+      a {
+          color: #6247AA;
+          text-decoration: none; 
+          font-weight: 400;
+          /* text-underline-position: under; */
+          border-bottom: 2px solid #6247AA;
+      }
+    }    
+
 
 }
 

@@ -1,21 +1,25 @@
 team: 
-  - name: "Ran Abramitzky"
+  - name: <a href="https://ranabr.people.stanford.edu/" target="_blank">Ran Abramitzky</a>
     org: Stanford University
-  - name: "Leah Platt Boustan"
+  - name: <a href=" https://scholar.princeton.edu/lboustan/home" target="_blank">Leah Platt Boustan</a>
     org: Princeton University
-  - name: "James Feigenbaum"
+  - name: <a href="https://sites.google.com/a/umich.edu/baileymj/home" target="_blank">Martha J. Bailey</a>
+    org: University of Michigan  
+  - name: <a href="http://kaeriksson.ucdavis.edu/" target="_blank">Katherine A. Eriksson</a>
+    org: University of California, Davis  
+  - name: <a href="https://jamesfeigenbaum.github.io/" target="_blank">James Feigenbaum</a>
     org: Boston University
-  - name: "Jonas Helgertz"
+  - name: <a href="https://www.economics.northwestern.edu/people/directory/joseph-ferrie.html" target="_blank">Joseph P. Ferrie</a>
+    org: Northwestern University  
+  - name: <a href="https://pop.umn.edu/content/jonas-helgertz" target="_blank">Jonas Helgertz</a>
     org: Minnesota Population Center (University of Minnesota)
-  - name: "Joseph P. Price"
+  - name: <a href="http://seperez.ucdavis.edu/" target="_blank">Santiago Pérez</a>
+    org: University of California, Davis  
+  - name: <a href="https://economics.byu.edu/directory/joseph-p-price" target="_blank">Joseph P. Price</a>
     org: Brigham Young University
-  - name: "Martha J. Bailey"
-    org: University of Michigan
-  - name: "Katherine A. Eriksson"
-    org: University of California, Davis
-  - name: "Joseph P. Ferrie"
-    org: Northwestern University
-  - name: "Santiago Pérez"
-    org: University of California, Davis
+  
+  
+  
+  
       
 
