@@ -19427,6 +19427,14 @@ body.type-team .container-fluid {
   background-color: #F4FCFB;
 }
 
+body.type-team .memberName a {
+  color: #6247AA;
+  text-decoration: none;
+  font-weight: 400;
+  /* text-underline-position: under; */
+  border-bottom: 2px solid #6247AA;
+}
+
 body.type-contact .container-fluid {
   background-color: #F4FCFB;
   min-height: 100vh;
@@ -19983,6 +19991,8 @@ select {
   font-weight: 400;
   font-style: normal;
   font-size: 4.2rem;
+  margin-left: 0;
+  padding-left: 0;
   color: #6247AA;
 }
 
