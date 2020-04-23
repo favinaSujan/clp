@@ -19402,7 +19402,7 @@ body.data .container-fluid {
 }
 
 body.data main {
-  padding-bottom: 128px;
+  padding-bottom: 224px;
 }
 
 body.data .select-label {
@@ -19411,6 +19411,10 @@ body.data .select-label {
 
 body.data .year-start {
   margin-left: 6px;
+}
+
+body.data .finalyear {
+  padding-left: 4px;
 }
 
 body.data .view-as {
@@ -19435,6 +19439,14 @@ body.data #show-crosswalk a {
 
 body.type-team .container-fluid {
   background-color: #F4FCFB;
+}
+
+body.type-team .memberName a {
+  color: #6247AA;
+  text-decoration: none;
+  font-weight: 400;
+  /* text-underline-position: under; */
+  border-bottom: 2px solid #6247AA;
 }
 
 body.type-contact .container-fluid {
@@ -20063,13 +20075,20 @@ select {
 
 @media (min-width: 768px) {
   select {
-    font-size: 4.4rem;
+    font-size: 5rem;
   }
 }
 
-@media (min-width: 1280px) {
-  select {
-    font-size: 5rem;
+select#census1:focus, select#census2:focus {
+  outline: 2px dotted #9a9a9a;
+  padding: .4rem 2.4rem .4rem .4rem;
+  margin: -.4rem 0rem -.4rem -.4rem;
+}
+
+@media (min-width: 768px) {
+  select#census1:focus, select#census2:focus {
+    padding: 4px 2.4rem 4px 4px;
+    margin: -.4rem 0 -.4rem -.4rem;
   }
 }
 

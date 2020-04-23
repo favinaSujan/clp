@@ -104,28 +104,14 @@ $(document).ready(function () {
             $(this).show();
         }
     });
-    var fileLinkYears = '&nbsp;' + censusID1 + '—' + censusID2;
     var fileLinkTitle = '<a href="https://economics.princeton.edu/censuslinkingproject/' + 
     censusID1 + '-' + censusID2 + '.zip">' + censusID1 + '-' + censusID2 + '.zip</a>';
     
-    console.log(fileLinkTitle); 
-   // $('.file-title').empty();
-   // $('.file-title').append(fileLinkYears); 
-    function rollover1() {
-      var element1 = document.getElementById("selectarea");
-      $('.years').removeClass('rollover1');
-      void element1.offsetHeight;
-      $('.years').addClass('rollover1');
-    };
     function rollover2() {
       var element2 = document.getElementById("show-crosswalk");
       $('.years').removeClass('rollover1');
       void element2.offsetWidth;
       $('.years').addClass('rollover1');
-    
-      //$('.years').removeClass('rollover2');
-     // void element2.offsetWidth;
-      //$('.years').addClass('rollover2');
     };  
     function changeCrosswalk() {  
       $('.years').empty();
@@ -133,7 +119,6 @@ $(document).ready(function () {
     }
     setTimeout(rollover2, 0);
     setTimeout(changeCrosswalk, 280);
-   // getCrosswalk(censusID3,censusID4);
   });
 
 
