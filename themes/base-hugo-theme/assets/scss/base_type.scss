@@ -123,6 +123,15 @@ select {
     }
     color: #6247AA;
 }
+select#census1:focus, select#census2:focus {
+  outline: 2px dotted #9a9a9a;
+  padding: .4rem 2.4rem .4rem .4rem;
+  margin: -.4rem 0rem -.4rem -.4rem;
+  @include media-breakpoint-up(md){
+    padding: 4px 2.4rem 4px 4px;
+    margin: -.4rem 0 -.4rem -.4rem;
+  }
+}
 .pullquote {
   font-size: 3rem;
   @include media-breakpoint-up(md) {
