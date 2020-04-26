@@ -72,9 +72,9 @@
         var t = $(window).scrollTop();
         checkScroll(t);
     });
-
+  });
    
-// CLP ----------------------------------------------------------------
+// CLP Data Page ----------------------------------------------------------------
 
 
 $(document).ready(function () {
@@ -120,12 +120,20 @@ $(document).ready(function () {
     setTimeout(rollover2, 0);
     setTimeout(changeCrosswalk, 280);
   });
-
-
-
 });
 
 
+// CLP Homepage ------------------------------------------------ //
+
+$(document).ready(function () {
+
+
+anime.set ([ 'svg#tophalf','svg#bottomhalf' ], {
+  opacity: 0,
+});
+
+
+});
    
-  });
+  
 })(jQuery);

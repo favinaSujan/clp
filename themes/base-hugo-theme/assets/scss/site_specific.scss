@@ -102,13 +102,13 @@ body.home {
         }
         svg#tophalf {
             //  opacity: 0.6;
-              animation: fadeInLeft 2.5s ease, opaque 5.5s ease;
+            //  animation: fadeInLeft 2.5s ease, opaque 5.5s ease;
               //animation-delay: 5s;
           }
         
         svg#bottomhalf {
           //  opacity: 0.6;
-            animation: fadeInRight 2.5s ease, opaque 5.5s ease;
+          //animation: fadeInRight 2.5s ease, opaque 5.5s ease;
             //animation-delay: 5s;
         }
         @keyframes opaque {
