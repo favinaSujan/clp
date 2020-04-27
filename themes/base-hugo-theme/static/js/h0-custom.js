@@ -72,9 +72,9 @@
         var t = $(window).scrollTop();
         checkScroll(t);
     });
-
+  });
    
-// CLP ----------------------------------------------------------------
+// CLP Data Page ----------------------------------------------------------------
 
 
 $(document).ready(function () {
@@ -120,12 +120,54 @@ $(document).ready(function () {
     setTimeout(rollover2, 0);
     setTimeout(changeCrosswalk, 280);
   });
-
-
-
 });
 
 
+// CLP Homepage ------------------------------------------------ //
+
+$(document).ready(function () {
+
+ 
+
+anime.set(['.tabletUp svg#tophalf'], {
+  opacity: 0,
+  translateX: '-50%',
+});
+
+anime({ 
+  targets: ['.tabletUp svg#tophalf'],
+  opacity: 1,
+  translateX: 0,
+  easing: 'easeInOutSine',
+  duration: 2000,
+  delay: 0,
+});
+
+anime.set(['.tabletUp svg#bottomhalf'], {
+  opacity: 0,
+  translateX: '50%',
+  translateY: -1,
+});
+
+anime({ 
+  targets: ['.tabletUp svg#bottomhalf'],
+  opacity: 1,
+  translateX: 0,
+  easing: 'easeInOutSine',
+  duration: 2000,
+  delay: 0,
+});
+
+
+
+
+
+
+
+
+
+
+ });
    
-  });
+  
 })(jQuery);

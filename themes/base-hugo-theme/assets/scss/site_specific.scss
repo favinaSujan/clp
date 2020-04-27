@@ -82,6 +82,9 @@ body.home {
        animation-delay: 2.5s;
        -webkit-animation-fill-mode: both;
        animation-fill-mode: both;
+       @include media-breakpoint-down(mm) {
+         animation: none;
+       }
        .wordmark, .nav-menu {
             -webkit-animation-name: fadeInDown;
             animation-name: fadeInDown;
@@ -89,11 +92,22 @@ body.home {
             animation-delay: 2.5s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
+            @include media-breakpoint-down(mm) {
+              animation: none;
+            }
        }
        
     }
     .row.hero {
         background-color: #F4FCFB; 
+        p.largetext {
+          @include media-breakpoint-up(md) {
+            font-size: 2rem;
+          }
+          @include media-breakpoint-up(lg) {
+            font-size: 2.2rem;
+          }
+        }  
         #herotext {
             order: 2;
         }
@@ -101,14 +115,29 @@ body.home {
             order: 1;
         }
         svg#tophalf {
-            //  opacity: 0.6;
-              animation: fadeInLeft 2.5s ease, opaque 5.5s ease;
+            height: auto;
+            margin: auto;
+            display: block;
+            @include media-breakpoint-up(md) {
+            //@include  height: 154px;
+            }
+             opacity: 0;
+             will-change: transform;        /* Example of <custom-ident> */
+              will-change: opacity;
+            //  animation: fadeInLeft 2.5s ease, opaque 5.5s ease;
               //animation-delay: 5s;
           }
-        
         svg#bottomhalf {
-          //  opacity: 0.6;
-            animation: fadeInRight 2.5s ease, opaque 5.5s ease;
+          height: auto;
+          margin: auto;
+          display: block;
+            @include media-breakpoint-up(md) {
+            //  height: 170px;
+            }
+           opacity: 0;
+           will-change: transform;        /* Example of <custom-ident> */
+           will-change: opacity;
+          //animation: fadeInRight 2.5s ease, opaque 5.5s ease;
             //animation-delay: 5s;
         }
         @keyframes opaque {
@@ -122,9 +151,10 @@ body.home {
                 opacity: 1;
             }
         }
-
+        @include media-breakpoint-up(md) {
+          height: 78vh;
+        }
         @include media-breakpoint-up(lg) {
-            height: 78vh;
             margin-bottom: 22vh;
             min-height: 500px;
             #herotext {
@@ -141,13 +171,23 @@ body.home {
         width: 100%;
         position: relative;
         @include media-breakpoint-up(md){
-            position: absolute;
+           position: absolute;
         }
         bottom: 0;
         min-height: 144px;
+          &.animated.fadeInUpLess.delay-2-5s {
+            @include media-breakpoint-down(mm) {
+              animation-name: none;
+            }
+        }
         a.data-cta {
             text-decoration: none;
             display: block;
+            .animated.fadeInUpLess.fast.delay-2-5s {
+              @include media-breakpoint-down(mm) {
+                animation-name: none;
+              }
+            }
             &::after {
                 content: "";
                 height: 4px;
@@ -156,6 +196,7 @@ body.home {
                 display: block;
                 opacity: 0;
             }
+
             &:hover {
                // margin-top: 4px;
                &::after {
@@ -168,7 +209,7 @@ body.home {
         }
         .data-cta-heading {
             font-size: 4rem;
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(lg) {
                 font-size: 5rem;
             }
             @include aktiv-regular;
@@ -210,11 +251,12 @@ body.type-methods {
 }
 
 body.data {
+    background-color: #F4FCFB;
     .container-fluid {
     background-color: #F4FCFB;
     }
     main {
-        padding-bottom: 224px;
+        padding-bottom: 80px;
     }
     .select-label {
        margin-bottom: -3px;
