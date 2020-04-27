@@ -5,14 +5,21 @@
 
 
 <div class="row hero pt-15 pt-lg-5 mx-0 px-2 d-flex align-items-center justify-content-center justify-content-lg-start">
-    <div id="herotext" class="col-12 col-md-8 col-lg-6 offset-lg-1 text-center text-lg-left">
-        <p class="largetext animated fadeInUp delay-halfs slow">
+    <div id="herotext" class="col-12 col-md-8 col-lg-6 pb-md-5 pb-lg-0 offset-lg-1 text-center text-md-left">
+        <p class="d-none d-md-block largetext animated fadeInUp delay-halfs slow">
+            The Census Linking Project offers researchers the ability to create longitudinal datasets using historical US Census data (1850-1940). We provide links between each pair of complete-count Censuses using a wide variety of linking algorithms.
+        </p>
+        <p class="d-md-none largetext">
             The Census Linking Project offers researchers the ability to create longitudinal datasets using historical US Census data (1850-1940). We provide links between each pair of complete-count Censuses using a wide variety of linking algorithms.
         </p>
     </div>
-    <div id="census-graphic" class="col-12 col-lg-4 px-0 px-md-3 mb-4 mb-lg-0 d-flex flex-column justify-content-center align-items-center">
+    <!--<div id="census-graphic-mobile" class="d-flex d-md-none col-12 col-lg-4 px-0 px-md-3 mb-4 mb-lg-0  flex-column justify-content-start align-items-center">
+        {{ partial "census-graphic3" . }}
+    </div>-->
+    <div id="census-graphic" class="tabletUp col-12 col-md-6 col-lg-4 px-0 px-2 px-md-3 mb-4 mb-lg-0 flex-column justify-content-center justify-content-lg-end align-items-center">
         {{ partial "census-graphic2" . }}
     </div>
+   
 </div>
 <div class="row cta mx-0 animated fadeInUpLess delay-2-5s mt-4 mt-md-0">
     <div class="col-12 col-lg-11 offset-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start text-center text-lg-left">
@@ -20,7 +27,7 @@
             <div class="orangetext data-cta-heading animated fadeInUpLess fast delay-2-5s">
                 Get the Data
             </div>
-            <p class="orangetext regular animated fadeInUpLess fast delay-2-5s">
+            <p class="d-md-flex d-lg-block orangetext regular animated fadeInUpLess fast delay-2-5s">
                 Download the crosswalk files <img class="rtarrow" src="/images/icons/rightarrow-orange.svg" />
             </p>
         </a>    

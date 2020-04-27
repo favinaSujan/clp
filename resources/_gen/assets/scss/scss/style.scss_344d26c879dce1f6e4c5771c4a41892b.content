@@ -19265,6 +19265,12 @@ body.home nav {
   animation-fill-mode: both;
 }
 
+@media (max-width: 767.98px) {
+  body.home nav {
+    animation: none;
+  }
+}
+
 body.home nav .wordmark, body.home nav .nav-menu {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -19274,8 +19280,26 @@ body.home nav .wordmark, body.home nav .nav-menu {
   animation-fill-mode: both;
 }
 
+@media (max-width: 767.98px) {
+  body.home nav .wordmark, body.home nav .nav-menu {
+    animation: none;
+  }
+}
+
 body.home .row.hero {
   background-color: #F4FCFB;
+}
+
+@media (min-width: 768px) {
+  body.home .row.hero p.largetext {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body.home .row.hero p.largetext {
+    font-size: 2.2rem;
+  }
 }
 
 body.home .row.hero #herotext {
@@ -19284,6 +19308,26 @@ body.home .row.hero #herotext {
 
 body.home .row.hero #census-graphic {
   order: 1;
+}
+
+body.home .row.hero svg#tophalf {
+  height: auto;
+  margin: auto;
+  display: block;
+  opacity: 0;
+  will-change: transform;
+  /* Example of <custom-ident> */
+  will-change: opacity;
+}
+
+body.home .row.hero svg#bottomhalf {
+  height: auto;
+  margin: auto;
+  display: block;
+  opacity: 0;
+  will-change: transform;
+  /* Example of <custom-ident> */
+  will-change: opacity;
 }
 
 @keyframes opaque {
@@ -19298,9 +19342,14 @@ body.home .row.hero #census-graphic {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   body.home .row.hero {
     height: 78vh;
+  }
+}
+
+@media (min-width: 992px) {
+  body.home .row.hero {
     margin-bottom: 22vh;
     min-height: 500px;
   }
@@ -19327,9 +19376,21 @@ body.home .row.cta {
   }
 }
 
+@media (max-width: 767.98px) {
+  body.home .row.cta.animated.fadeInUpLess.delay-2-5s {
+    animation-name: none;
+  }
+}
+
 body.home .row.cta a.data-cta {
   text-decoration: none;
   display: block;
+}
+
+@media (max-width: 767.98px) {
+  body.home .row.cta a.data-cta .animated.fadeInUpLess.fast.delay-2-5s {
+    animation-name: none;
+  }
 }
 
 body.home .row.cta a.data-cta::after {
@@ -19394,12 +19455,16 @@ body.type-methods img.methods-img {
   }
 }
 
+body.data {
+  background-color: #F4FCFB;
+}
+
 body.data .container-fluid {
   background-color: #F4FCFB;
 }
 
 body.data main {
-  padding-bottom: 224px;
+  padding-bottom: 80px;
 }
 
 body.data .select-label {
@@ -19964,7 +20029,7 @@ div .datamenu, p .datamenu, span .datamenu {
 }
 
 .years.datafile, .codes.datafile, .docs.datafile {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 @media (min-width: 768px) {
