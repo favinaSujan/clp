@@ -209,7 +209,7 @@ body.home {
         }
         .data-cta-heading {
             font-size: 4rem;
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(lg) {
                 font-size: 5rem;
             }
             @include aktiv-regular;

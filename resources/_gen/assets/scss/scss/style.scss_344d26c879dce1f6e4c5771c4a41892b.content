@@ -19414,7 +19414,7 @@ body.home .row.cta .data-cta-heading {
   font-style: normal;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   body.home .row.cta .data-cta-heading {
     font-size: 5rem;
   }
