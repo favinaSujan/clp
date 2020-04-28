@@ -21,15 +21,30 @@ collections:
             - {label: Hero panel text, name: herotext, widget: string}
             - {label: Get the Data prompt, name: dataprompt, widget: string}
             - {label: Prompt subheading, name: dataprompt2, widget: string}
+  
+  #TEAM
+  - label: "Our Team"
+    name: team_members
+    preview_path: /team
+    files:
+        - label: Our Team Members 
+          name: team
+          file: "data/people/people.yaml"
+          extension: "yaml"
+          widget: list
+            fields:
+              - {label: Team Member Name, name: name, widget: string}
+              - {label: Organization, name: org, required: false, widget: string} 
+          
            
             
   #WHAT IS BIL PAGE
-  - label: "About"
-    name: about
+  - label: "Our Team"
+    name: team
     files:
-        - label: What is BIL 
-          preview_path: about/what-is-bil/
-          name: what_is_bil_content
+        - label: Our Team Members 
+          preview_path: /team/
+          name: team_members
           file: "content/about/what-is-bil/_index.md"
           extension: "md"
           fields:
