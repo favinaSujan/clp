@@ -25,10 +25,10 @@ collections:
   #TEAM
   - label: "Our Team"
     name: team_members
-    file: "data/people/people.yaml"
     preview_path: /team
-    fields:
+    files:
       - label: Our Team Members 
+        file: "data/people/people.yaml"
         name: team
         extension: "yaml"
         widget: list
