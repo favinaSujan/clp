@@ -21,6 +21,19 @@ collections:
             - {label: Hero panel text, name: herotext, widget: string}
             - {label: Get the Data prompt, name: dataprompt, widget: string}
             - {label: Prompt subheading, name: dataprompt2, widget: string}
+
+  #About
+  - label: "Home"
+    name: about
+    preview_path: /about
+    files:
+        - label: About Page Content
+          name: aboutpage_content
+          file: "content/about/_index.md"
+          fields:
+            - {label: Blockquote, name: aboutblock, widget: string}
+            - {label: Body text, name: body, widget: markdown}
+                    
   
   #TEAM
   - label: "Our Team"
