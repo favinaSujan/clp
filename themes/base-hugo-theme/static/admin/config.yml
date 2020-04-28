@@ -25,16 +25,16 @@ collections:
   #TEAM
   - label: "Our Team"
     name: team_members
+    file: "data/people/people.yaml"
     preview_path: /team
-    files:
-        - label: Our Team Members 
-          name: team
-          file: "data/people/people.yaml"
-          extension: "yaml"
-          widget: list
-            fields:
-              - {label: Team Member Name, name: name, widget: string}
-              - {label: Organization, name: org, required: false, widget: string} 
+    fields:
+      - label: Our Team Members 
+        name: team
+        extension: "yaml"
+        widget: list
+          fields:
+            - {label: Team Member Name, name: name, widget: string}
+            - {label: Organization, name: org, required: false, widget: string} 
           
            
             
