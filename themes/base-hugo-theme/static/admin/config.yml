@@ -23,7 +23,7 @@ collections:
             - {label: Prompt subheading, name: dataprompt2, widget: string}
 
   #About
-  - label: "Home"
+  - label: "About Page"
     name: about
     preview_path: /about
     files:
