@@ -1,0 +1,69 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "content/uploads" # Media files will be stored in the repo under content/uploads (to make the image processing work we have to use this technique to spoof the images being page resources
+public_folder: "/uploads" # The src attribute for uploaded media will begin with this
+
+collections:
+  #HOMEPAGE
+  - label: "Home"
+    name: home
+    preview_path: /
+    files:
+        - label: Homepage Content
+          name: homepage_content
+          file: "data/home.yaml"
+          extension: "yaml"
+          fields:
+            - {label: Hero panel text, name: herotext, widget: string}
+            - {label: Get the Data prompt, name: dataprompt, widget: string}
+            - {label: Prompt subheading, name: dataprompt2, widget: string}
+           
+            
+  #WHAT IS BIL PAGE
+  - label: "About"
+    name: about
+    files:
+        - label: What is BIL 
+          preview_path: about/what-is-bil/
+          name: what_is_bil_content
+          file: "content/about/what-is-bil/_index.md"
+          extension: "md"
+          fields:
+            - {label: pageTitle, name: title, widget: hidden, default: "What Is BIL"}
+            - {label: layout, name: layout, widget: hidden, default: "what-is-bil"}
+            - {label: Hero Image Text, name: herotext, widget: string}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
+            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Heading, name: heading2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Paragraph 1, name: p2p1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Paragraph 2, name: p2p2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Paragraph 3, name: p2p3, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 3 Heading, name: heading3, widget: string}
+            - {label: Panel 3 Body Text, name: body3, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 4 Heading, name: heading4, widget: string}
+            - {label: Panel 4 Body Text, name: body4, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Heading, name: heading5, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Paragraph 1, name: p5p1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Paragraph 2, name: p5p2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Paragraph 3, name: p5p3, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Paragraph 4, name: p5p4, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Sponsors Panel Heading, name: heading6, widget: string}
+            - {label: Panel 6 Body Text, name: body6, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+  - label: Social Media Metadata
+    name: social-media
+    files: 
+      - label: Social media image and description
+        file: "data/social.yaml"
+        preview_path: /
+        extension: "yaml"
+        create: false
+        name: socialitems
+        fields:
+          - {label: "Social media description", name: "social_description", widget: string}
+          - {label: Social media image, name: social_image, widget: image, hint: 'Optimum resolution is 1200x675 pixels'}
+          

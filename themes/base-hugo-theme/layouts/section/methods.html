@@ -6,40 +6,29 @@
 
 <div class="row">
   <div class="col-12 col-md-8 col-lg-6 offset-md-1 offset-lg-2 pt-2 pb-1 py-md-3 mt-15 mt-md-20">
-    <h1>Linking Methods</h1>
+    <h1>{{ .Title }}</h1>
   </div>
 </div> 
 
 <div class="row mt-2">
     <div class="med-text pullquote regular orangetext col-12 col-md-10 col-lg-7 offset-md-1 offset-lg-2 pt-2 pb-3 mb-4">
-        Our linking methods aim to make as few false matches as possible (minimize type I errors) while creating as many of the true matches as possible (minimize type II errors). 
+        {{ .Params.blockquote }}
     </div>
     <div class="med-text regular orangetext col-12 col-md-8 col-lg-6 offset-md-1 offset-lg-2 pb-3">
-        <p>Linking individuals is challenging in historical data because of factors such as transcription and enumeration errors, age misreporting, mortality<sup>1</sup>, under-enumeration and international migration between census years, and many respondents with common names.
-        </p>
-        <p>Figure 1 shows a comparison of different linking methods according to their type I and type II errors.</p>
+       {{ .Params.intro | safeHTML | markdownify }}
     </div>
 </div>
 
 <div class="row">
     <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 pt-2 pb-0">
-        <img class="methods-img" src="/images/link_methods.png" style="max-width: 100%;" />
+        <img class="methods-img" src="{{ .Params.image }}" style="max-width: 100%;" />
     </div>
 </div>
 
 
 <div class="row pb-15">
   <div class="col-12 col-md-8 col-lg-6 offset-md-1 offset-lg-2 mt-1 mt-md-6">
-    <p>This figure refers to a series of linking methods currently used or soon to be added 
-        to this project (e.g., the ABE method, machine learning method, and EM method). 
-        Details of these linking methods can be found in the paper <a target="_blank" href="https://scholar.princeton.edu/sites/default/files/lboustan/files/nber_automated_linking.pdf]">“Automated Linking of 
-        Historical Data”</a> 
-        by Ran Abramitzky, Leah Platt Boustan, Katherine Eriksson, James J. Feigenbaum, and Santiago Pérez. 
-        </p>
-        <p>A set of codes and documentation that can be used to implement each of these 
-        methods can be downloaded from our data page or found at <a target="_blank" href="https://ranabr.people.stanford.edu/matching-codes">this website</a>.</p>
-        <hr class="my-2"><p class="footnote"><sup>1</sup> Missed links due to mortality will be a larger problem when linking between two Censuses
-            conducted a number of years apart (i.e. matching from the 1850 Census to 1940 Census) and so links created over a long time span should be used with caution.</p>        
+    {{ .Content | safeHTML }} 
   </div>
 </div>
 
