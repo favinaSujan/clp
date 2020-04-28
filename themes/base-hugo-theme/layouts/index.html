@@ -3,14 +3,14 @@
 
 {{ partial "nav2" . }}
 
-
+{{ with .Site.Data.home }}
 <div class="row hero pt-15 pt-lg-5 mx-0 px-2 d-flex align-items-center justify-content-center justify-content-lg-start">
     <div id="herotext" class="col-12 col-md-8 col-lg-6 pb-md-5 pb-lg-0 offset-lg-1 text-center text-md-left">
         <p class="d-none d-md-block largetext animated fadeInUp delay-halfs slow">
-            The Census Linking Project offers researchers the ability to create longitudinal datasets using historical US Census data (1850-1940). We provide links between each pair of complete-count Censuses using a wide variety of linking algorithms.
+            {{ .herotext }}        
         </p>
         <p class="d-md-none largetext">
-            The Census Linking Project offers researchers the ability to create longitudinal datasets using historical US Census data (1850-1940). We provide links between each pair of complete-count Censuses using a wide variety of linking algorithms.
+            {{ .herotext }}   
         </p>
     </div>
     <!--<div id="census-graphic-mobile" class="d-flex d-md-none col-12 col-lg-4 px-0 px-md-3 mb-4 mb-lg-0  flex-column justify-content-start align-items-center">
@@ -25,16 +25,16 @@
     <div class="col-12 col-lg-11 offset-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start text-center text-lg-left">
         <a href="/data" class="data-cta">
             <div class="orangetext data-cta-heading animated fadeInUpLess fast delay-2-5s">
-                Get the Data
+                {{ .dataprompt }}
             </div>
             <p class="d-md-flex d-lg-block orangetext regular animated fadeInUpLess fast delay-2-5s">
-                Download the crosswalk files <img class="rtarrow" src="/images/icons/rightarrow-orange.svg" />
+                {{ .dataprompt2 }} <img class="rtarrow" src="/images/icons/rightarrow-orange.svg" />
             </p>
         </a>    
     </div>
 </div>   
 
-
+{{ end }}
 
 
 

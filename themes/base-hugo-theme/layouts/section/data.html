@@ -13,9 +13,7 @@
         <!--<div class="col-6 d-flex regular px-0">View as:<span class="view-as">Menu &nbsp; <a href="/data-table">Table</a></span></div><div class="col-6 d-flex regular px-0">Crosswalk files for<span class="file-title"></span></div>
         <div class="w-100 mb-4"></div>-->
         <div class="col col-lg-6 mb-3 pl-0 pr-3"><p>
-            {{ with .Site.Data.data }}
-                {{ .intro }}
-                {{ end }}
+            {{ .Params.intro | safeHTML | markdownify }}
         </p></div>
         <div class="col-12 col-lg-6"></div>
         <div class="col-12 col-lg-6 d-flex px-0">
@@ -74,18 +72,11 @@
 <div class="row">
     <div class="col-12 col-md-9 mx-auto d-md-flex py-5 px-0 data-notes">
         <div class="col-12 col-md-6 pl-0 pr-4">
-            {{ with .Site.Data.data }}
-                <p>{{ .para1 | safeHTML }}</p>
-                <p>{{ .para2 | safeHTML }}</p>
-                <p>{{ .para2_2 | safeHTML }}</p>
-            {{ end }}
+         {{ .Params.para1 | markdownify }}
         </div>
 
         <div class="col-12 col-md-6 pl-0">
-            {{ with .Site.Data.data }}
-                <p>{{ .para3 | safeHTML }}</p>
-                <hr class="my-2"><p>{{ .para4 | safeHTML }}</p>
-            {{ end }}
+            {{ .Params.para3 | safeHTML | markdownify}}
         </div>
     </div>
 </div>
