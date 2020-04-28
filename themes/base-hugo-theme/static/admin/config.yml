@@ -28,13 +28,13 @@ collections:
     file: "data/people/people.yaml"
     preview_path: /team
     fields:
-        - label: Our Team Members 
-          name: team
-          extension: "yaml"
-          widget: list
-            fields:
-              - {label: Team Member Name, name: name, widget: string}
-              - {label: Organization, name: org, required: false, widget: string} 
+      - label: Our Team Members 
+        name: team
+        extension: "yaml"
+        widget: list
+          fields:
+            - {label: Team Member Name, name: name, widget: string}
+            - {label: Organization, name: org, required: false, widget: string} 
           
            
             
