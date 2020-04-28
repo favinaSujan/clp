@@ -30,11 +30,10 @@ collections:
       - label: Our Team Members 
         file: "data/people/people.yaml"
         name: team
-        extension: "yaml"
         widget: list
-          fields:
-            - {label: Team Member Name, name: name, widget: string}
-            - {label: Organization, name: org, required: false, widget: string} 
+        fields:
+          - {label: Team Member Name, name: name, widget: string}
+          - {label: Organization, name: org, required: false, widget: string} 
           
            
             
