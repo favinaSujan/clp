@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+  preview: true
 
 publish_mode: editorial_workflow
 
@@ -27,13 +28,27 @@ collections:
     name: about
     preview_path: /about
     files:
-        - label: About Page Content
-          name: aboutpage_content
-          file: "content/about/_index.md"
-          fields:
-            - {label: Blockquote, name: aboutblock, widget: string}
-            - {label: Body text, name: body, widget: markdown}
-                    
+      - label: About Page Content
+        name: aboutpage_content
+        file: "content/about/_index.md"
+        fields:
+          - {label: Blockquote, name: aboutblock, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Body text, name: body, widget: markdown}
+  
+  #Data
+  - label: "Data Page"
+    name: data
+    preview_path: /data
+    files:
+      - label: Data Page Content
+        name: datapage_content
+        file: "content/data/_index.md"
+        fields:
+          - {label: Page Title, name: title, widget: string}
+          - {label: Introduction, name: intro, widget: markdown}
+          - {label: Column 1, name: para1, widget: markdown}  
+          - {label: Column 2, name: para3, widget: markdown}    
   
   #TEAM
   - label: "Our Team"
