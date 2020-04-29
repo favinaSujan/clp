@@ -21,13 +21,13 @@
 <div class="row pb-15">
   <div class="col-12 col-md-5 col-lg-4 offset-md-1 offset-lg-2 mt-1 mt-md-6">
     {{ range first 5 (.Site.Data.people.people.team) }}
-        <div class="memberName regular"><a href="{{ .link }}" target="_blank">{{ .name }}</a></div> 
+        <div class="memberName regular mb-1"><a href="{{ .link }}" target="_blank">{{ .name }}</a></div> 
         <p class="mb-4">{{ .org }}</p>
     {{ end }}
   </div>
   <div class="col-12 col-md-5 col-lg-4 mt-0 mt-md-6">
     {{ range first 8 (after 5 (.Site.Data.people.people.team)) }}
-    <div class="memberName regular"><a href="{{ .link }}" target="_blank">{{ .name }}</a></div>  
+    <div class="memberName regular mb-1"><a href="{{ .link }}" target="_blank">{{ .name }}</a></div>  
       <p class="mb-4">{{ .org }}</p>
     {{ end }}
   </div>
