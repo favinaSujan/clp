@@ -256,39 +256,38 @@ body.type-methods {
 }
 
 body.data {
-  background-color: #F4FCFB;
-  .container-fluid {
-  background-color: #F4FCFB;
-  }
-  main {
-      padding-bottom: 80px;
-  }
-  .select-label {
-     margin-bottom: -3px;
-  }
-  .year-start {
-      margin-left: 6px;
-  }
-  .finalyear {
-    padding-left: 4px;
-  }
-  .view-as {
-      margin-left: 22px;
-  }
-  form { 
-      line-height: 0.9;
-  }
-  #show-crosswalk {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      a {
-          text-decoration: none;
-          border-bottom: 1px solid $clppurple;
-      }
-  }
- 
+    background-color: #F4FCFB;
+    .container-fluid {
+    background-color: #F4FCFB;
+    }
+    main {
+        padding-bottom: 80px;
+    }
+    .select-label {
+       margin-bottom: -3px;
+    }
+    .year-start {
+        margin-left: 6px;
+    }
+    .finalyear {
+      padding-left: 4px;
+    }
+    .view-as {
+        margin-left: 22px;
+    }
+    form { 
+        line-height: 0.9;
+    }
+    #show-crosswalk {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            border-bottom: 1px solid $clppurple;
+        }
+    }
 }
 body.type-team {
   .container-fluid {
