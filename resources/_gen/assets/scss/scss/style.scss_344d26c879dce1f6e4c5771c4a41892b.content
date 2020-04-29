@@ -19454,6 +19454,11 @@ body.type-methods img.methods-img {
   }
 }
 
+body.type-methods .methods-body img {
+  max-width: 100%;
+  padding: 2.4rem 0;
+}
+
 body.data {
   background-color: #F4FCFB;
 }
