@@ -15,4 +15,6 @@ This figure refers to a series of linking methods currently used or soon to be a
     
 A set of codes and documentation that can be used to implement each of these methods can be downloaded from our data page or found at <a target="_blank" href="https://ranabr.people.stanford.edu/matching-codes">this website</a>.
 
-<hr class="my-2"><p class="footnote"><sup>1</sup> Missed links due to mortality will be a larger problem when linking between two Censuses conducted a number of years apart (i.e. matching from the 1850 Census to 1940 Census) and so links created over a long time span should be used with caution.</p>       
+<hr>
+
+<p class="footnote"><sup>1</sup> Missed links due to mortality will be a larger problem when linking between two Censuses conducted a number of years apart (i.e. matching from the 1850 Census to 1940 Census) and so links created over a long time span should be used with caution.</p>       

@@ -18,7 +18,7 @@ para3: >-
   reweight the data. Extensive documentation is provided and should be consulted before using the data.
 
  
-  <hr class="my-2">
+  <hr />
   
   <sup>1</sup> Note: Crosswalks with 1880 data will be added as soon as stable histids are made available. The microdata for the 1890 Census is no longer extant.   
 image:  
