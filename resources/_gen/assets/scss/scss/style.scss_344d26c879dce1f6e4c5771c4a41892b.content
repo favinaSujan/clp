@@ -19552,9 +19552,9 @@ body.type-contact .container-fluid {
 }
 
 /*.fadeInDown {
-    -webkit-animation-name: fadeInDown;
-    animation-name: fadeInDown;
-  } */
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+} */
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
