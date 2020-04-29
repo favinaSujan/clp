@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-  preview: true
+  branch: production # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -20,7 +19,7 @@ collections:
           extension: "yaml"
           fields:
             - {label: Page Title, name: title, widget: string}
-            - {label: Description, name: description, hint: for search engines and social media, widget: string}
+            - {label: Description, name: description, required: false, hint: for search engines and social media, widget: string}
             - {label: Hero panel text, name: herotext, widget: string}
             - {label: Get the Data prompt, name: dataprompt, widget: string}
             - {label: Prompt subheading, name: dataprompt2, widget: string}
@@ -35,10 +34,10 @@ collections:
         file: "content/about/_index.md"
         fields:
           - {label: Page Title, name: title, widget: string}
-          - {label: Description, name: description, hint: for search engines and social media, widget: string}
-          - {label: Blockquote, name: aboutblock, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Body text, name: body, widget: markdown}
+          - {label: Description, required: false, name: description, hint: for search engines and social media, widget: string}
+          - {label: Blockquote, required: false, name: aboutblock, widget: string}
+          - {label: Image, required: false, name: image, widget: image}
+          - {label: Body text, required: false, name: body, widget: markdown}
   
   #Data
   - label: "Data Page"
@@ -50,10 +49,10 @@ collections:
         file: "content/data/_index.md"
         fields:
           - {label: Page Title, name: title, widget: string}
-          - {label: Description, name: description, hint: for search engines and social media, widget: string}
-          - {label: Introduction, name: intro, widget: markdown}
-          - {label: Column 1, name: para1, widget: markdown}  
-          - {label: Column 2, name: para3, widget: markdown} 
+          - {label: Description, required: false, name: description, hint: for search engines and social media, widget: string}
+          - {label: Introduction, required: false, name: intro, widget: markdown}
+          - {label: Column 1, required: false, name: para1, widget: markdown}  
+          - {label: Column 2, required: false, name: para3, widget: markdown} 
   
   #Methods
   - label: "Methods Page"
@@ -64,10 +63,11 @@ collections:
         name: methodspage_content
         file: "content/methods/_index.md"
         fields:
-          - {label: Page Title, name: title, widget: string}
-          - {label: Description, name: description, hint: for search engines and social media, widget: string}
-          - {label: Blockquote, name: blockquote, widget: string}
-          - {label: Body Text, name: body, widget: markdown}  
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: displaytitle, widget: string}
+          - {label: Description, required: false, name: description, hint: for search engines and social media, widget: string}
+          - {label: Blockquote, required: false,name: blockquote, widget: string}
+          - {label: Body Text, required: false, name: body, widget: markdown}  
          
   
   #TEAM
@@ -79,9 +79,10 @@ collections:
         file: "content/team/_index.md"
         name: ourteamtext
         fields:
-          - {label: Page Title, name: title, widget: string}
-          - {label: Description, name: description, hint: for search engines and social media, widget: string}
-          - {label: Introduction, name: intro, widget: markdown} 
+          - {label: Title, name: title, widget: hidden}
+          - {label: Page Title, name: displaytitle, widget: string}
+          - {label: Description, required: false, name: description, hint: for search engines and social media, widget: string}
+          - {label: Introduction, required: false, name: intro, widget: markdown} 
       - label: Our Team Members 
         file: "data/people/people.yaml"
         name: people
@@ -91,7 +92,7 @@ collections:
             widget: list
             fields:
               - {label: Team Member Name, name: name, widget: string}
-              - {label: Team Member Link, name: link, widget: string}
+              - {label: Team Member Link, required: false, name: link, widget: string}
               - {label: Organization, name: org, required: false, widget: string} 
           
   #Contact
@@ -104,8 +105,8 @@ collections:
         file: "content/contact/_index.md"
         fields:
           - {label: Page Title, name: title, widget: string}
-          - {label: Description, name: description, hint: for search engines and social media, widget: string}
-          - {label: Body Text, name: body, widget: markdown}           
+          - {label: Description, required: false, name: description, hint: for search engines and social media, widget: string}
+          - {label: Body Text, required: false, name: body, widget: markdown}           
             
   
 
@@ -119,6 +120,6 @@ collections:
         create: false
         name: socialitems
         fields:
-          - {label: "Social media description", name: "social_description", widget: string}
-          - {label: Social media image, name: social_image, widget: image, hint: 'Optimum resolution is 1200x675 pixels'}
+          - {label: "Social media description", required: false, name: "social_description", widget: string}
+          - {label: Social media image, required: false, name: social_image, widget: image, hint: 'Optimum resolution is 1200x675 pixels'}
           
