@@ -11,24 +11,15 @@
 </div> 
 
 <div class="row mt-2">
-    <div class="med-text pullquote regular orangetext col-12 col-md-10 col-lg-7 offset-md-1 offset-lg-2 pt-2 pb-3 mb-4">
+    <div class="med-text pullquote regular orangetext col-12 col-md-10 col-lg-7 offset-md-1 offset-lg-2 pt-2 pb-3">
         {{ .Params.blockquote }}
-    </div>
-    <div class="med-text regular orangetext col-12 col-md-8 col-lg-6 offset-md-1 offset-lg-2 pb-3">
-       {{ .Params.intro | safeHTML | markdownify }}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 pt-2 pb-0">
-        <img class="methods-img" src="{{ .Params.image }}" style="max-width: 100%;" />
     </div>
 </div>
 
 
 <div class="row pb-15">
-  <div class="col-12 col-md-8 col-lg-6 offset-md-1 offset-lg-2 mt-1 mt-md-6">
-    {{ .Content | safeHTML }} 
+  <div class="col-12 col-md-8 col-lg-6 offset-md-1 offset-lg-2 mt-1 mt-md-6 methods-body">
+    {{ .Content | safeHTML | markdownify }} 
   </div>
 </div>
 

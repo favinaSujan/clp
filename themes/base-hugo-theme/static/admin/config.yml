@@ -19,6 +19,8 @@ collections:
           file: "data/home.yaml"
           extension: "yaml"
           fields:
+            - {label: Page Title, name: title, widget: string}
+            - {label: Description, name: description, hint: for search engines and social media, widget: string}
             - {label: Hero panel text, name: herotext, widget: string}
             - {label: Get the Data prompt, name: dataprompt, widget: string}
             - {label: Prompt subheading, name: dataprompt2, widget: string}
@@ -32,6 +34,8 @@ collections:
         name: aboutpage_content
         file: "content/about/_index.md"
         fields:
+          - {label: Page Title, name: title, widget: string}
+          - {label: Description, name: description, hint: for search engines and social media, widget: string}
           - {label: Blockquote, name: aboutblock, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Body text, name: body, widget: markdown}
@@ -46,15 +50,38 @@ collections:
         file: "content/data/_index.md"
         fields:
           - {label: Page Title, name: title, widget: string}
+          - {label: Description, name: description, hint: for search engines and social media, widget: string}
           - {label: Introduction, name: intro, widget: markdown}
           - {label: Column 1, name: para1, widget: markdown}  
-          - {label: Column 2, name: para3, widget: markdown}    
+          - {label: Column 2, name: para3, widget: markdown} 
+  
+  #Methods
+  - label: "Methods Page"
+    name: methods
+    preview_path: /methods
+    files:
+      - label: Methods Page Content
+        name: methodspage_content
+        file: "content/methods/_index.md"
+        fields:
+          - {label: Page Title, name: title, widget: string}
+          - {label: Description, name: description, hint: for search engines and social media, widget: string}
+          - {label: Blockquote, name: blockquote, widget: string}
+          - {label: Body Text, name: body, widget: markdown}  
+         
   
   #TEAM
   - label: "Our Team"
     name: team_members
     preview_path: /team
     files:
+      - label: Our Team Text
+        file: "content/team/_index.md"
+        name: ourteamtext
+        fields:
+          - {label: Page Title, name: title, widget: string}
+          - {label: Description, name: description, hint: for search engines and social media, widget: string}
+          - {label: Introduction, name: intro, widget: markdown} 
       - label: Our Team Members 
         file: "data/people/people.yaml"
         name: people
@@ -67,7 +94,18 @@ collections:
               - {label: Team Member Link, name: link, widget: string}
               - {label: Organization, name: org, required: false, widget: string} 
           
-           
+  #Contact
+  - label: "Contact Page"
+    name: contact
+    preview_path: /contact
+    files:
+      - label: Contact Page Content
+        name: contactpage_content
+        file: "content/contact/_index.md"
+        fields:
+          - {label: Page Title, name: title, widget: string}
+          - {label: Description, name: description, hint: for search engines and social media, widget: string}
+          - {label: Body Text, name: body, widget: markdown}           
             
   
 
