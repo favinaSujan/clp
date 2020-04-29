@@ -1,5 +1,6 @@
 ---
-title: "Our Team"
+title: "Team"
+displaytitle: Our Team
 date: "2019-02-24"
 description: 
 intro: >-

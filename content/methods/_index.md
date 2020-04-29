@@ -1,5 +1,6 @@
 ---
-title: "Linking Methods"
+title: "Methods"
+displaytitle: Linking Methods
 date: "2019-02-24"
 description:
 blockquote: Our linking methods aim to make as few false matches as possible (minimize type I errors) while creating as many of the true matches as possible (minimize type II errors).
