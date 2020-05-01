@@ -30,9 +30,6 @@ para3: >-
   should be consulted before using the data.
 
 
-  <hr />
-
-
   In addition to citing the papers underlying the matching methods used, publications based on the data from the Census Linking Project must cite it appropriately. The citation should include the following:
 
 
