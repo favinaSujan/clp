@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2019-02-24
+date: 2019-02-24T00:00:00.000Z
 aboutblock: Linking individuals across historical data sources opens up exciting
   new research possibilities.
 image: /uploads/census1920.jpg
@@ -13,4 +13,4 @@ The website will be updated periodically as links using additional matching meth
 
 In addition to citing the papers underlying the matching method used, publications based on the data from the Census Linking Project must cite it appropriately. The citation should include the following:
 
-***Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https://censuslinkingproject.org***
+***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https://censuslinkingproject.org</b>***
