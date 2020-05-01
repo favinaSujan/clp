@@ -30,12 +30,12 @@ para3: >-
   should be consulted before using the data.
 
 
-  In addition to citing the papers underlying the matching methods used, publications based on the data from the Census Linking Project must cite it appropriately. The citation should include the following:
+  Publications based on the data from the site must cite the Census Linking Project appropriately -- in addition to citations of relevant academic papers -- as follows:
 
 
   ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https://censuslinkingproject.org</b>***
 
 
-  Please also provide us with the citation of your work that uses data from the Census Linking Project <a target="_blank" href="https://forms.gle/JxzztJqGNyBbxA7y6">here</a>.
+  Tell us about your published work using data from the Census Linking Project <a target="_blank" href="https://forms.gle/JxzztJqGNyBbxA7y6">here</a>.
 image: null
 ---
