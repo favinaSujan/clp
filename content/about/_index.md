@@ -11,6 +11,8 @@ The project uses several different automated methods to link individuals across 
 
 The website will be updated periodically as links using additional matching methods become available. We also invite researchers to get in touch with us if they want to add their own Census links to our crosswalks.
 
+<hr>
+
 In addition to citing the papers underlying the matching method used, publications based on the data from the Census Linking Project must cite it appropriately. The citation should include the following:
 
 ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https://censuslinkingproject.org</b>***
