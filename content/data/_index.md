@@ -1,6 +1,6 @@
 ---
 title: Data
-date: 2019-02-24
+date: 2019-02-24T00:00:00.000Z
 description: null
 intro: Please select the starting and final year of your desired linked
   dataset.  You will then be able to download a ZIP file containing the
@@ -31,5 +31,14 @@ para3: >-
 
 
   <hr />
+
+
+  In addition to citing the papers underlying the matching methods used, publications based on the data from the Census Linking Project must cite it appropriately. The citation should include the following:
+
+
+  ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https://censuslinkingproject.org</b>***
+
+
+  Please also provide us with the citation of your work that uses data from the Census Linking Project [here](https://forms.gle/JxzztJqGNyBbxA7y6).
 image: null
 ---
