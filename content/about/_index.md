@@ -13,6 +13,6 @@ The website will be updated periodically as links using additional matching meth
 
 <hr>
 
-In addition to citing the papers underlying the matching method used, publications based on the data from the Census Linking Project must cite it appropriately. The citation should include the following:
+In addition to citing the papers underlying the matching methods used, publications based on the data from the Census Linking Project must cite it appropriately. The citation should include the following:
 
 ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https://censuslinkingproject.org</b>***
