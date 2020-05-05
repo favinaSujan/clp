@@ -20,22 +20,12 @@ para1: >-
   <hr />
 
   <sup>1</sup> Note: Crosswalks with 1880 data will be added as soon as stable histids are made available. The microdata for the 1890 Census is no longer extant.
-para3: >-
-  For instance, if you choose 1900 as your starting year and 1940 as your final
-  year, then the crosswalk will provide you with <i>histids</i> of individuals
-  in 1900 matched to <i>histids</i> of individuals in 1940.  You will then be
-  able to download the data (in .dta and .csv formats), codes used to create the
-  crosswalks, and further codes that will allow you to merge in information from
-  IPUMS and to  reweight the data. Extensive documentation is provided and
-  should be consulted before using the data.
-
-
-  Publications using data from the site must cite the Census Linking Project appropriately as follows:
-
-
-  ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https://censuslinkingproject.org</b>***
-
-
-  Tell us about your published work using data from the Census Linking Project <a target="_blank" href="https://forms.gle/JxzztJqGNyBbxA7y6">here</a>.
+para3: For instance, if you choose 1900 as your starting year and 1940 as your
+  final year, then the crosswalk will provide you with <i>histids</i> of
+  individuals in 1900 matched to <i>histids</i> of individuals in 1940.  You
+  will then be able to download the data (in .dta and .csv formats), codes used
+  to create the crosswalks, and further codes that will allow you to merge in
+  information from IPUMS and to  reweight the data. Extensive documentation is
+  provided and should be consulted before using the data.
 image: null
 ---
