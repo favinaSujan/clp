@@ -14,12 +14,7 @@ para1: >-
   The crosswalks also give users the option to select the linking method with which matches were created. Users can then merge into these crosswalks a wide set of individual- and household-level variables provided publicly by <a href="https://usa.ipums.org/usa/" target="_blank">IPUMS</a>, thereby creating a historical longitudinal dataset for analysis.
 
 
-  In the above menu, "starting year" refers to one particular wave of the Census and "final year" refers to another wave of the Census. 
-
-
-  <hr />
-
-  <sup>1</sup> Note: Crosswalks with 1880 data will be added as soon as stable histids are made available. The microdata for the 1890 Census is no longer extant.
+  In the above menu, "starting year" refers to one particular wave of the Census and "final year" refers to another wave of the Census.
 para3: >-
   For instance, if you choose 1900 as your starting year and 1940 as your final
   year, then the crosswalk will provide you with <i>histids</i> of individuals
@@ -30,12 +25,8 @@ para3: >-
   should be consulted before using the data.
 
 
-  Publications using data from the site must cite the Census Linking Project appropriately as follows:
+  <hr />
 
-
-  ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https://censuslinkingproject.org</b>***
-
-
-  Tell us about your published work using data from the Census Linking Project <a target="_blank" href="https://forms.gle/JxzztJqGNyBbxA7y6">here</a>.
+  <sup>1</sup> Note: Crosswalks with 1880 data will be added as soon as stable histids are made available. The microdata for the 1890 Census is no longer extant.
 image: null
 ---
