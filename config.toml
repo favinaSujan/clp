@@ -11,6 +11,9 @@ resampleFilter = "box"
 quality = 70
 anchor = "smart"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   # google_analytics_id=""
   hideFooter=false
@@ -42,8 +45,8 @@ anchor = "smart"
         weight = 4
 
     [[menu.main]]
-        name = "Team"
-        url = "/team"
+        name = "Who We Are"
+        url = "/who-we-are"
         weight = 5
 
     [[menu.main]]

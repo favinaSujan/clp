@@ -1,8 +1,9 @@
 ---
-title: Team
+title: "Who We Are"
 displaytitle: Project Associates
-date: 2019-02-24
-description: null
+url: /who-we-are
+date: "2019-02-24"
+description: 
 intro: 'The team of researchers behind the Census Linking Project consists of
   members of the National Bureau of Economic Research’s <a
   href="https://www.nber.org/programs/dae/dae.html" target="_blank">Development
