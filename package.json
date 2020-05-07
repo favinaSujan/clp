@@ -1,0 +1,23 @@
+{
+  "name": "clp",
+  "version": "1.0.0",
+  "description": "This is the website for CLP.",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyperobjekt/clp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyperobjekt/clp/issues"
+  },
+  "homepage": "https://github.com/Hyperobjekt/clp#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1"
+  }
+}

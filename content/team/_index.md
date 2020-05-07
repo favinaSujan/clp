@@ -1,6 +1,7 @@
 ---
-title: "Team"
-displaytitle: Our Team
+title: "Who We Are"
+displaytitle: Project Associates
+url: /who-we-are
 date: "2019-02-24"
 description: 
 intro: >-
