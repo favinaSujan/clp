@@ -1,4 +1,4 @@
-team: 
+team:
   - name: Ran Abramitzky
     link: https://ranabr.people.stanford.edu/
     org: Stanford University
@@ -7,28 +7,24 @@ team:
     org: Princeton University
   - name: William Collins
     link: https://as.vanderbilt.edu/econ/bio/william-collins-econ
-    org: Vanderbilt University      
+    org: Vanderbilt University
   - name: Katherine A. Eriksson
     link: http://kaeriksson.ucdavis.edu/
-    org: University of California, Davis  
+    org: University of California, Davis
   - name: James Feigenbaum
     link: https://jamesfeigenbaum.github.io/
     org: Boston University
   - name: Joseph P. Ferrie
     link: https://www.economics.northwestern.edu/people/directory/joseph-ferrie.html
-    org: Northwestern University  
+    org: Northwestern University
   - name: Jonas Helgertz
     link: https://pop.umn.edu/content/jonas-helgertz
     org: Minnesota Population Center (University of Minnesota)
   - name: Santiago Pérez
     link: http://seperez.ucdavis.edu/
-    org: University of California, Davis  
+    org: University of California, Davis
   - name: Joseph P. Price
     link: https://economics.byu.edu/directory/joseph-p-price
     org: Brigham Young University
-  
-  
-  
-  
-      
-
+  - name: Myera Rashid
+    org: Princeton University
