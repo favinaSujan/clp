@@ -15,7 +15,7 @@ We acknowledge generous funding from the Industrial Relations Section at Princet
 
 <hr>
 
-Publications using data from the site must cite the Census Linking Project appropriately as follows:
+Publications using data from the site should cite the Census Linking Project appropriately as follows:
 
 ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https***:***//censuslinkingproject.org</b>*** 
 
