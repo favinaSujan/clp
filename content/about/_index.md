@@ -19,4 +19,6 @@ Publications using data from the site must cite the Census Linking Project appro
 
 Tell us about your published work using data from the Census Linking Project <a target="_blank" href="https://forms.gle/JxzztJqGNyBbxA7y6">here</a>.
 
+<hr>
+
 We acknowledge generous funding from the Industrial Relations Section at Princeton University and support from the Minnesota Population Center.
