@@ -15,10 +15,8 @@ The website will be updated periodically as links using additional matching meth
 
 Publications using data from the site must cite the Census Linking Project appropriately as follows:
 
-***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https***\:***//censuslinkingproject.org</b>*** 
+***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https***:***//censuslinkingproject.org</b>*** 
 
 Tell us about your published work using data from the Census Linking Project <a target="_blank" href="https://forms.gle/JxzztJqGNyBbxA7y6">here</a>.
-
-<hr>
 
 We acknowledge generous funding from the Industrial Relations Section at Princeton University and support from the Minnesota Population Center.
