@@ -19,6 +19,6 @@ Publications using data from the site should cite the Census Linking Project app
 
 ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https***:***//censuslinkingproject.org</b>*** 
 
-Please follow the [IPUMS citation guide](https://usa.ipums.org/usa/cite.shtml) and terms of use when utilizing publicly available Census data and adhere to the security agreement and appropriate citation in your license when using restricted data.
+Please follow the [IPUMS citation guide](https://usa.ipums.org/usa/cite.shtml) and [terms of use](https://usa.ipums.org/usa/terms.shtml) when utilizing publicly available Census data and adhere to the security agreement and appropriate citation in your license when using restricted data.
 
 Tell us about your published work using data from the Census Linking Project <a target="_blank" href="https://forms.gle/JxzztJqGNyBbxA7y6">here</a>.
