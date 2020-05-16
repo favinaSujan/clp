@@ -11,14 +11,12 @@ The project uses several different automated methods to link individuals across 
 
 The website will be updated periodically as links using additional matching methods become available. We also invite researchers to get in touch with us if they want to add their own Census links to our crosswalks.
 
-We acknowledge generous funding from the [Industrial Relations Section](https://irs.princeton.edu/) at Princeton University and support from the [Minnesota Population Center](https://pop.umn.edu/) and the [National Bureau of Economic Research](https://nber.org/). We are grateful to [Ancestry.com](https://www.ancestry.com/) for providing the underlying data.
+We acknowledge generous funding from the [Industrial Relations Section](https://irs.princeton.edu/) at Princeton University and support from the [Minnesota Population Center](https://pop.umn.edu/) and the [National Bureau of Economic Research](https://nber.org/). We are grateful to [Ancestry](https://www.ancestry.com/) for providing the underlying data.
 
 <hr>
 
 Publications using data from the site should cite the Census Linking Project appropriately as follows:
 
 ***<b>Ran Abramitzky, Leah Boustan and Myera Rashid. Census Linking Project: Version 1.0 \[dataset]. 2020. https***:***//censuslinkingproject.org</b>*** 
-
-
 
 Tell us about your published work using data from the Census Linking Project <a target="_blank" href="https://forms.gle/JxzztJqGNyBbxA7y6">here</a>.
