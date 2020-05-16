@@ -11,7 +11,7 @@ The project uses several different automated methods to link individuals across 
 
 The website will be updated periodically as links using additional matching methods become available. We also invite researchers to get in touch with us if they want to add their own Census links to our crosswalks.
 
-We acknowledge generous funding from the <a target="_blank" href="https://irs.princeton.edu/">Industrial Relations Section</a> at Princeton University and support from the <a target="_blank" href="https://pop.umn.edu/">Minnesota Population Center</a> and the <a target="_blank" href="https://nber.org/">National Bureau of Economic Research</a>. We are grateful to <a target="_blank" href="https://www.ancestry.com/">Ancestry</a> for providing the underlying data.
+We acknowledge generous funding from the <a target="_blank" href="https://irs.princeton.edu/">Industrial Relations Section</a> at Princeton University and support from the <a target="_blank" href="https://pop.umn.edu/">Minnesota Population Center</a> and the <a target="_blank" href="https://nber.org/">National Bureau of Economic Research</a>. We are grateful to <a target="_blank" href="https://www.ancestry.com/">Ancestry.com</a> for providing the underlying data.
 
 <hr>
 
