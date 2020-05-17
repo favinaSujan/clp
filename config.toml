@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Census Linking Project"
 theme = "base-hugo-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-166879129-1"
 paginate = 5
 enableRobotsTXT = true
 

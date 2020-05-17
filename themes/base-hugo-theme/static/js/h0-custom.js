@@ -78,7 +78,7 @@
 
 
 $(document).ready(function () {
-
+  var gatag = " onclick=\"ga(‘send’, ‘event’, ‘PDF’, ‘Download’, ‘Company Brochure – PDF Download’);\"";
   $('.years').append('<a href="https://economics.princeton.edu/censuslinkingproject/1850-1860.zip">1850-1860.zip</a>');
   $('.file-title').append('&nbsp;1850-1860');
 
@@ -104,8 +104,9 @@ $(document).ready(function () {
             $(this).show();
         }
     });
+  
     var fileLinkTitle = '<a href="https://economics.princeton.edu/censuslinkingproject/' + 
-    censusID1 + '-' + censusID2 + '.zip">' + censusID1 + '-' + censusID2 + '.zip</a>';
+    censusID1 + '-' + censusID2 + '.zip"' + '>' + censusID1 + '-' + censusID2 + '.zip</a>';
     
     function rollover2() {
       var element2 = document.getElementById("show-crosswalk");
