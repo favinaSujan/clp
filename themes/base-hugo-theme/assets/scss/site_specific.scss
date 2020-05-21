@@ -314,6 +314,19 @@ body.type-contact {
       }
 }
 
+body.type-analytics-reporting {
+  .container-fluid {
+    background-color: #F4FCFB;
+    }
+  .analytics-reporting {
+    iframe {
+        @include media-breakpoint-up(md) {
+            max-width: 100%;
+        }
+    }
+  }
+}
+
 // Utils -------------------------- /
 
 .bordered {
