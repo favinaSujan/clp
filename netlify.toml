@@ -32,6 +32,10 @@ HUGO_VERSION = "0.69.2"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[context.analytics]
+command = "hugo --gc --minify && cp _analytics_headers public/_headers"
+
+
 [[redirects]]
  
 
