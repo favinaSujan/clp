@@ -1,36 +1,45 @@
 <div id="videoCarousel" class="carousel slide">
-  <div class="carousel-inner">
-    {{ range $i, $e := . }}
-    <div class="carousel-item">
-      <div class="video-container">
-        <iframe id="{{ $e.uid }}" 
-                src="https://www.youtube.com/embed/{{ $e.videoId }}?&showinfo=0&rel=0&enablejsapi=1&hl={{ $e.captionState }}&cc_lang_pref={{ $e.captionState }}&cc_load_policy=1" 
-                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
-        ></iframe> 
+  <div class="col-12 col-md-8 col-lg-9 offset-md-1 offset-lg-2 py-3 mt-15 regular d-flex">
+    <div class="col-12 col-lg-9">
+      <div class="carousel-inner">
+        {{ range $i, $e := . }}
+        <div class="carousel-item">
+          <div class="video-container">
+            <iframe id="{{ $e.uid }}" 
+                    src="https://www.youtube.com/embed/{{ $e.videoId }}?&showinfo=0&rel=0&enablejsapi=1&hl={{ $e.captionState }}&cc_lang_pref={{ $e.captionState }}&cc_load_policy=1" 
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
+            ></iframe> 
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>{{ $e.title }}</h2>
+            <p>{{ $e.description }}</p>
+          </div>
+          <p class="vidsub mobile-on ak-bold">{{ $e.title }}</p>
+        </div>
+        {{ end }}
       </div>
-      <div class="carousel-caption d-none d-md-block">
-        <h2>{{ $e.title }}</h2>
-        <p>{{ $e.description }}</p>
-      </div>
-      <p class="vidsub mobile-on ak-bold">{{ $e.title }}</p>
+      <a class="carousel-control-prev mobile-off" href="#videoCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous Video</span>
+      </a>
+      <a class="carousel-control-next mobile-off" href="#videoCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next Video</span>
+      </a>
+    </div>  
+ 
+    <div class="col-12 col-lg-3">
+      <ol class="carousel-indicators">
+        {{ range $i, $e := . }}
+          <li id="vt{{ add $i 1 }}" data-target="#videoCarousel" data-slide-to="{{ $i }}" role="button">
+            <img src="{{ $e.thumb }}" alt="{{ $e.title }}" />
+          </li>
+        {{ end }}
+      </ol>
     </div>
-    {{ end }}
-  </div>
-  <a class="carousel-control-prev mobile-off" href="#videoCarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous Video</span>
-  </a>
-  <a class="carousel-control-next mobile-off" href="#videoCarousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next Video</span>
-  </a>
-  <ol class="carousel-indicators">
-    {{ range $i, $e := . }}
-      <li id="vt{{ add $i 1 }}" data-target="#videoCarousel" data-slide-to="{{ $i }}" role="button">
-        <img src="{{ $e.thumb }}" alt="{{ $e.title }}" />
-      </li>
-    {{ end }}
-  </ol>
+    
+ 
+  
 </div>
 <script type="text/javascript">
 
