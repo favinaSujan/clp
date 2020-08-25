@@ -236,6 +236,19 @@ body.type-about {
       background-position: center top;
       border-right: 24px solid #F4FCFB;
   }
+  h2 {
+    color: #343434;
+    font-size: 3.4rem;
+  }
+  .carousel-indicators {
+    li {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 0.02em;
+      color: #343434;
+    }
+  }
 }
 
 body.type-methods {
