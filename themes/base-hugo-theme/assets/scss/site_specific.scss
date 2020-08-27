@@ -229,10 +229,14 @@ body.type-about {
       background-color: #F4FCFB;
       }
   #roll-img {
-      height: auto;
+      //height: 320px;
+
+      @include media-breakpoint-up(lg) {
+        height: 400px;
+      }
       max-height: 500px;
-     // background-color: #fff;
-      background-size: cover;
+      background-size: 160%;
+      background-repeat: no-repeat;
       background-position: center top;
       border-right: 24px solid #F4FCFB;
   }
@@ -240,6 +244,7 @@ body.type-about {
     color: #343434;
     font-size: 3.4rem;
     font-weight: 600;
+    line-height: 1.5;
   }
   h3 {
     color: #343434;
@@ -255,6 +260,11 @@ body.type-about {
       line-height: 21px;
       letter-spacing: 0.02em;
       color: #343434;
+      opacity: 0.6;
+      &.active {
+        opacity: 1;
+        font-weight: 500;
+      }
     }
   }
 }

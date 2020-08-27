@@ -19093,17 +19093,24 @@ body.type-about .container-fluid {
 }
 
 body.type-about #roll-img {
-  height: auto;
   max-height: 500px;
-  background-size: cover;
+  background-size: 160%;
+  background-repeat: no-repeat;
   background-position: center top;
   border-right: 24px solid #F4FCFB;
+}
+
+@media (min-width: 992px) {
+  body.type-about #roll-img {
+    height: 400px;
+  }
 }
 
 body.type-about h2 {
   color: #343434;
   font-size: 3.4rem;
   font-weight: 600;
+  line-height: 1.5;
 }
 
 body.type-about h3 {
@@ -19120,6 +19127,12 @@ body.type-about .carousel-indicators li {
   line-height: 21px;
   letter-spacing: 0.02em;
   color: #343434;
+  opacity: 0.6;
+}
+
+body.type-about .carousel-indicators li.active {
+  opacity: 1;
+  font-weight: 500;
 }
 
 body.type-methods .container-fluid {
@@ -19866,6 +19879,7 @@ hr {
 .video-panel .carousel-indicators {
   position: relative;
   margin-left: 0;
+  z-index: 1;
 }
 
 @media (max-width: 767.98px) {
