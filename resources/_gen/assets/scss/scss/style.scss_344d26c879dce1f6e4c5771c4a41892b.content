@@ -19111,9 +19111,11 @@ body.type-about h2 {
   font-size: 3.4rem;
   font-weight: 600;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 body.type-about h3 {
+  letter-spacing: 0;
   color: #343434;
   font-size: 2.6rem;
   font-weight: 600;
