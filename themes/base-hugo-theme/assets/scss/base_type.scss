@@ -8,7 +8,7 @@ h1 {
 }
 h2,
 div.h2 {
-  @include futura-bold;
+  @include aktiv-regular;
   font-size: 3.2rem;
   @include media-breakpoint-up(sm) {
     font-size: 3.2rem;
@@ -24,7 +24,7 @@ div.h2 {
 }
 
 h3 {
-  @include futura-medium;
+  @include aktiv-regular;
   font-size: 1.7rem;
   @include media-breakpoint-up(sm) {
     font-size: 3.2rem;
@@ -39,7 +39,7 @@ h3 {
 }
 
 h4 {
-  @include futura-demi;
+  //@include futura-demi;
     font-size: 2.4rem;
     line-height: 3rem;
     // letter-spacing: .03rem;
@@ -55,7 +55,7 @@ h4 {
 
 
 h5 {
-  @include futura-medium;
+  //@include futura-medium;
   font-size: 1.6rem;
   letter-spacing: 0.15rem;
   //font-size: 1.4rem;
@@ -72,6 +72,9 @@ div, p, span {
     .datamenu {
         font-size: 1.5rem;
     }
+}
+p {
+  margin-bottom: 1.6rem;
 }
 .footnote {
   font-size: 1.4rem;

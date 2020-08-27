@@ -84,9 +84,7 @@ nav.navbar > div {
 .dkbluebg {
   background-color: #021029;
 }
-.orangebg {
-  background-color: $boldorange;
-}
+
 a.no-underline {
   text-decoration: none;
   &:hover {
@@ -109,7 +107,6 @@ nav a {
 }
 
 p, ul, textarea, input {
-  @include futura-book;
     font-size: 1.6rem;
     letter-spacing: 0.035rem;
     line-height: 2.4rem;
@@ -119,43 +116,9 @@ ul {
   list-style: none;
 }
 
-span.bold-bullet {
-  @include futura-bold;
-}
-span.bitter-reg {
-  @include bitter-reg;
-}
-span.bitter-bold {
-  @include bitter-bold;
-  font-size: 3.8rem;
-  display: inline-block;
-  position: relative;
-  top: 1px;
-  //letter-spacing: .5rem;
-}
-span.omega {
-  @include bitter-black;
-  font-size: 5.1rem;
-  display: inline-block;
-  position: relative;
-  top: 0px;
-  //letter-spacing: .5rem;
-}
-span.bitter-black {
-  @include bitter-black;
-  font-size: 3.5rem;
-}
-span.futura-zero {
-  font-size: 2.9rem;
-  @include media-breakpoint-up(md) {
-    font-size: 4.35rem;
-  }
-  
-}
 
 h2,
 div.h2 {
-  @include futura-bold;
   font-size: 3.2rem;
   @include media-breakpoint-up(sm) {
     font-size: 3.2rem;
@@ -171,7 +134,6 @@ div.h2 {
 }
 
 h3 {
-  @include futura-medium;
   font-size: 1.7rem;
   @include media-breakpoint-up(sm) {
     font-size: 3.2rem;
@@ -186,7 +148,6 @@ h3 {
 }
 
 h4 {
-  @include futura-demi;
     font-size: 2.4rem;
     line-height: 3rem;
     // letter-spacing: .03rem;
@@ -202,7 +163,6 @@ h4 {
 
 
 h5 {
-  @include futura-medium;
   font-size: 1.6rem;
   letter-spacing: 0.15rem;
   //font-size: 1.4rem;
@@ -278,19 +238,6 @@ a.readmore svg {
 
 // Color classes
 
-.colorblue {
-  color: $seda-buttonblue;
-}
-.colorred {
-  color: $seda-red;
-}
-.colornavy {
-  color: $seda-navy;
-}
-.colormidblue {
-  color: #103698;
-  //font-style: italic;
-}
 
 // Custom button style
 .btn-custom {
@@ -316,8 +263,7 @@ a.readmore svg {
   &:active,
   &:hover,
   &:focus {
-    background-color: darken($seda-red, 15%);
-    color: $white;
+  
   }
   svg.fa-external-link-square-alt {
     width: 13px;
@@ -334,7 +280,6 @@ a.readmore svg {
   font-size: 1.4rem;
   letter-spacing: .064rem;
   line-height: 4.4rem;
-  background-color: $seda-dark;
   color: #fff;
   text-align: center;
   white-space: nowrap;
@@ -351,8 +296,6 @@ a.readmore svg {
   &:active,
   &:hover,
   &:focus {
-    background-color: lighten($seda-dark, 15%);
-    color: $white;
   }
 }
 
@@ -414,7 +357,6 @@ nav.inner-page-nav {
 body.type-help-faq, body.research {
   nav.sticky-top {
     box-shadow: none;
-    border-bottom: 1px solid $seda-lightblue;
   }
 }
 
@@ -471,7 +413,6 @@ nav.navbar-light {
   }
 
   &.sticky-top {
-    background-color: $seda-dark;
     background-color: #fff;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .20);
     transition: background-color .2s ease;
@@ -633,7 +574,6 @@ nav.navbar-light {
       font-size: 2.4rem;
       line-height: 2.0rem;
       letter-spacing: .011rem;
-      color: $seda-dark;
       //text-transform: uppercase;
       margin-bottom: 3.2rem;
       @include aktiv-light;
@@ -757,7 +697,7 @@ img {
         line-height: 1.4rem;
         letter-spacing: 0.055rem;
         text-transform: uppercase;
-        font-family: $sharpgrotesk-med-15;
+        //font-family: $sharpgrotesk-med-15;
         border: none;
         height: 4.7rem;
         background-color: #fff;
@@ -846,7 +786,7 @@ textarea, input {
 // 404 page
 body.kind-404 {
   .hero {
-    background: $midnightblue;
+    //background: $midnightblue;
     height: 100vh;
     margin-right: 0;
     margin-left: 0;
@@ -909,7 +849,7 @@ body.kind-404 {
     padding-bottom: 6.4rem;
   }
   p {
-    font-family: $maisonneue-book;
+    //font-family: $maisonneue-book;
     font-size: 1.3rem;
     line-height: 2rem;
     letter-spacing: 0;
@@ -936,7 +876,7 @@ body.kind-404 {
 
 // Footer
 #footer {
-  background-color: $midnightblue;
+  //background-color: $midnightblue;
   color: $white;
 
   a {
@@ -1033,7 +973,7 @@ body.kind-404 {
 
   .siteby {
     order: 4;
-    font-family: $maisonneue-book;
+    //font-family: $maisonneue-book;
     font-size: 1.2rem;
     line-height: 2.3rem;
     letter-spacing: .009rem;
@@ -1051,7 +991,7 @@ body.kind-404 {
 
   .institution {
     order: 3;
-    font-family: $maisonneue-book;
+    //font-family: $maisonneue-book;
     font-size: 1.2rem;
     line-height: 2.3rem;
     letter-spacing: .009rem;

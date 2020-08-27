@@ -1,15 +1,19 @@
 <div id="videoCarousel" class="row carousel slide">
-  <div class="col-12 col-md-10 col-lg-8 mx-auto px-0 py-3 mt-15 regular d-lg-flex">
+  <div class="col-12 col-md-10 col-lg-8 mx-auto px-0 py-3 my-8 regular d-lg-flex">
 
-    <div class="col-12 col-lg-4 d-flex flex-column px-0">
-      <h2 class="memberName">Videos</h2>
-      <ol class="carousel-indicators d-block">
-        {{ range $i, $e := . }}
-          <li id="vt{{ add $i 1 }}" data-target="#videoCarousel" data-slide-to="{{ $i }}" role="button">
-            {{ $e.title }} &nbsp; <img src="/images/icons/rtarrow-blk.svg" />
-          </li>
-        {{ end }}
-      </ol>
+    <div class="col-12 col-lg-4 d-flex flex-column flex-md-row flex-lg-column px-0">
+      <div class="col-12 col-md-3 col-lg-12 videoCarousel__header">
+        <h2 class="memberName">Videos</h2>
+      </div>
+      <div class="col-12 col-md-9 col-lg-12">
+        <ol class="carousel-indicators d-block">
+          {{ range $i, $e := . }}
+            <li id="vt{{ add $i 1 }}" data-target="#videoCarousel" data-slide-to="{{ $i }}" role="button">
+              {{ $e.title }} &nbsp; <img src="/images/icons/rtarrow-blk.svg" />
+            </li>
+          {{ end }}
+        </ol>
+      </div>  
     </div>
 
     <div class="col-12 col-lg-8">
@@ -44,6 +48,7 @@
     
  
   
+</div>
 </div>
 <script type="text/javascript">
 
