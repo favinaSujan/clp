@@ -19109,18 +19109,15 @@ body.type-about #roll-img {
 body.type-about h2 {
   color: #343434;
   font-size: 3.4rem;
-  font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0;
 }
 
 body.type-about h3 {
-  letter-spacing: 0;
   color: #343434;
   font-size: 2.6rem;
-  font-weight: 600;
-  letter-spacing: 0.11rem;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 body.type-about .carousel-indicators li {
@@ -19215,6 +19212,78 @@ body.type-team .memberName a {
 body.type-contact .container-fluid {
   background-color: #F4FCFB;
   min-height: 100vh;
+}
+
+body.type-video .container-fluid {
+  background-color: #F4FCFB;
+}
+
+body.type-video .video-panel {
+  background-color: #F4FCFB;
+  height: 100vh;
+  padding-top: 72px;
+}
+
+@media (min-width: 768px) {
+  body.type-video .video-panel {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  body.type-video .video-panel {
+    padding-top: 96px;
+  }
+}
+
+body.type-video #roll-img {
+  max-height: 500px;
+  background-size: 160%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-right: 24px solid #F4FCFB;
+}
+
+@media (min-width: 992px) {
+  body.type-video #roll-img {
+    height: 400px;
+  }
+}
+
+body.type-video h2 {
+  color: #343434;
+  font-size: 4.4rem;
+  line-height: 1;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+}
+
+body.type-video h3 {
+  color: #343434;
+  font-size: 2.6rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+@media (min-width: 992px) {
+  body.type-video .carousel-indicators {
+    margin-top: 4rem;
+  }
+}
+
+body.type-video .carousel-indicators li {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #343434;
+  opacity: 0.6;
+  background: transparent;
+}
+
+body.type-video .carousel-indicators li.active {
+  opacity: 1;
+  font-weight: 500;
 }
 
 body.type-analytics-reporting .container-fluid {
@@ -19858,8 +19927,6 @@ hr {
 
 /* ----- Video Panel ------- */
 .video-panel {
-  background: #fff;
-  /* Old browsers */
   /* background: -moz-linear-gradient(top, #424670 0%, #2F3251 100%); */
   /* FF3.6-15 */
   /* background: -webkit-linear-gradient(top, #424670 0%, #2F3251 100%); */
@@ -19872,9 +19939,6 @@ hr {
   .video-panel .videoCarousel__header {
     max-height: 72px;
     align-items: flex-start;
-  }
-  .video-panel .videoCarousel__header h2 {
-    line-height: 1.5;
   }
 }
 

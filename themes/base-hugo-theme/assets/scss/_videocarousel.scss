@@ -1,6 +1,6 @@
 /* ----- Video Panel ------- */ 
 .video-panel {
-    background: #fff; /* Old browsers */
+   // background: #fff; /* Old browsers */
     /* background: -moz-linear-gradient(top, #424670 0%, #2F3251 100%); */ /* FF3.6-15 */
     /* background: -webkit-linear-gradient(top, #424670 0%, #2F3251 100%); */ /* Chrome10-25,Safari5.1-6 */
     /* background: linear-gradient(to bottom, #424670 0%,#2F3251 100%); */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -10,7 +10,7 @@
             max-height: 72px;
             align-items: flex-start;
             h2 {
-                line-height: 1.5;
+             //   line-height: 1.5;
             }
         }
     }
