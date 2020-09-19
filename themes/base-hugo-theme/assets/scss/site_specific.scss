@@ -225,6 +225,7 @@ body.home {
 }
 
 body.type-about {
+
   .container-fluid {
       background-color: #F4FCFB;
       }
@@ -265,6 +266,9 @@ body.type-about {
         font-weight: 500;
       }
     }
+  }
+  #citations {
+    background-color: #fff;
   }
 }
 
@@ -379,6 +383,9 @@ body.type-video {
     line-height: 1;
     letter-spacing: 0.05rem;
     font-weight: 600;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 2.4rem;
+    }
   }
   h3 {
     color: #343434;
@@ -387,9 +394,6 @@ body.type-video {
     letter-spacing: 0;
   }
   .carousel-indicators {
-    @include media-breakpoint-up(lg) {
-      margin-top: 4rem;
-    }
     li {
       font-weight: 300;
       font-size: 18px;

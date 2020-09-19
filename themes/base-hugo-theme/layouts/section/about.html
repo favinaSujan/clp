@@ -18,13 +18,7 @@
   </div>
 </div>
 
-<div class="video-panel">
-  
-      {{ partial "videocarousel" .Params.videoSection.videos }}
-   
-</div> 
-
-<div class="row pt-4 pt-md-6 pt-lg-8 pb-15">
+<div id="citations" class="row pt-4 pt-md-6 pt-lg-8 pb-15">
   <div class="col-12 col-md-10 col-lg-4 offset-md-1 offset-lg-2">
     <h3>{{ .Params.citationheader }}</h3>
     <p>{{ .Params.citationtext | markdownify | safeHTML }}</p>

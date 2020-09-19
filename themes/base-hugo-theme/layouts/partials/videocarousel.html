@@ -2,11 +2,11 @@
   <div class="col-12 col-md-10 col-lg-10 col-xl-9 mx-auto px-0 py-0 my-4 my-md-6 my-lg-8 regular d-lg-flex">
 
     <div class="col-12 col-lg-4 d-flex flex-column flex-md-row flex-lg-column px-0 pb-3 pb-lg-0">
-      <div class="col-12 col-md-3 col-lg-12 videoCarousel__header">
+      <div class="col-12 col-md-3 col-lg-12 mb-13 videoCarousel__header">
         <h2 class="memberName">{{ .heading }}</h2>
+        <p>{{ .para }}</p>
       </div>
       <div class="col-12 col-md-9 col-lg-12">
-        <p>{{ .para }}</p>
         <ol class="carousel-indicators d-block">
           {{ range $i, $e := .videos }}
             <li id="vt{{ add $i 1 }}" data-target="#videoCarousel" data-slide-to="{{ $i }}" role="button">
