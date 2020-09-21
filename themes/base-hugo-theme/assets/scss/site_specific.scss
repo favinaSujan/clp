@@ -76,7 +76,7 @@ body .container-fluid {
 body.home {
   background-color: #F4FCFB; 
   main {
-    @media (max-height: 1023px) and (max-width: 991px) {
+    @media (max-height: 1023px) and (min-width: 768px) and (max-width: 991px) {
     min-height: 840px;
     position: relative;
     }
