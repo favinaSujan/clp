@@ -157,6 +157,7 @@ body.home {
               opacity: 1;
           }
       }
+      margin-bottom: 16vh;
       @include media-breakpoint-up(md) {
         height: 78vh;
       }
