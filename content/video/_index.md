@@ -1,9 +1,6 @@
 ---
 title: Video
 date: 2019-02-24T00:00:00.000Z
-aboutblock: Linking individuals across historical data sources opens up exciting
-  new research possibilities.
-image: /uploads/census1920.jpg
 videoSection:
   heading: 'Video'
   para: Watch these clips to learn more about the project's background and how to use the website.

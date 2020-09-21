@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: production # Branch to update (optional; defaults to master)
+  branch: carousel # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -23,6 +23,8 @@ collections:
             - {label: Hero panel text, name: herotext, widget: string}
             - {label: Get the Data prompt, name: dataprompt, widget: string}
             - {label: Prompt subheading, name: dataprompt2, widget: string}
+            - {label: Video prompt, name: videoprompt, widget: string}
+            - {label: Prompt subheading, name: videoprompt2, widget: string}
 
   #About
   - label: "About Page"
@@ -53,7 +55,31 @@ collections:
           - {label: Introduction, required: false, name: intro, widget: markdown}
           - {label: Column 1, required: false, name: para1, widget: markdown}  
           - {label: Column 2, required: false, name: para3, widget: markdown} 
-  
+
+  #Video
+  - label: "Video Page"
+    name: video
+    preview_path: /video
+    files:
+      - label: Video Page Content
+        name: videopage_content
+        file: "content/video/_index.md"
+        fields:
+          - label: Video Section
+            name: videoSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: hidden}
+              - {label: Carousel Heading, name: heading, widget: string}
+              - {label: Carousel Subheading, name: para, widget: string}
+              - label: Videos
+                name: videos
+                widget: list
+                fields:
+                  - {label: Unique ID, name: uid, widget: string}
+                  - {label: Youtube video ID, name: videoId, widget: string}
+                  - {label: Video title, name: title, widget: string}
+    
   #Methods
   - label: "Methods Page"
     name: methods
