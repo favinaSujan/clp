@@ -75,6 +75,12 @@ body .container-fluid {
 
 body.home {
   background-color: #F4FCFB; 
+  main {
+    @media (max-height: 1023px) and (max-width: 991px) {
+    min-height: 840px;
+    position: relative;
+    }
+  }
   nav {
      -webkit-animation-name: fadeInDown;
      animation-name: fadeInDown;
@@ -207,6 +213,7 @@ body.home {
               
           }
       }
+      
       .data-cta-heading {
           font-size: 4rem;
           @include media-breakpoint-up(lg) {
@@ -220,6 +227,24 @@ body.home {
       .rtarrow {
           margin-left: 5px;
           margin-top: -2px;
+      }
+      #middleborder {
+        #middleborder__line {
+          width: 1px;
+          height: 80px;
+          background-color: #d2d2d2;
+        }
+      }
+      #videoprompt {
+        .rtarrow {
+          width: 20px;
+        }
+        a.data-cta {
+          &::after {
+            content: "";
+            background-color: $clpcharcoal;
+          }
+        }
       }
   }
 }
@@ -383,6 +408,7 @@ body.type-video {
     line-height: 1;
     letter-spacing: 0.05rem;
     font-weight: 600;
+    margin-bottom: 1.6rem;
     @include media-breakpoint-up(lg) {
       margin-bottom: 2.4rem;
     }

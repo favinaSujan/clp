@@ -22,16 +22,29 @@
    
 </div>
 <div class="row cta mx-0 animated fadeInUpLess delay-2-5s mt-4 mt-md-0">
-    <div class="col-12 col-lg-11 offset-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start text-center text-lg-left">
-        <a href="/data" class="data-cta">
-            <div class="orangetext data-cta-heading animated fadeInUpLess fast delay-2-5s">
-                {{ .dataprompt }}
-            </div>
-            <p class="d-md-flex d-lg-block orangetext regular animated fadeInUpLess fast delay-2-5s">
-                {{ .dataprompt2 }} <img class="rtarrow" src="/images/icons/rightarrow-orange.svg" />
-            </p>
-        </a>    
-    </div>
+    <div class="col-12 col-lg-10 mx-auto d-flex flex-column flex-md-row py-5 py-md-0">
+        <div class="col-12 col-md-5 col-xl-4 d-flex align-items-center justify-content-center justify-content-lg-start text-center text-lg-left">
+            <a href="/data" class="data-cta">
+                <div class="orangetext data-cta-heading animated fadeInUpLess fast delay-2-5s">
+                    {{ .dataprompt }}
+                </div>
+                <p class="d-md-flex d-lg-block orangetext regular animated fadeInUpLess fast delay-2-5s">
+                    {{ .dataprompt2 }} <img class="rtarrow" src="/images/icons/rightarrow-orange.svg" />
+                </p>
+            </a>    
+        </div>
+        <div id="middleborder" class="d-none d-md-flex col-md-2 col-xl-4 justify-content-center align-items-center"><div id="middleborder__line"></div></div>
+        <div id="videoprompt" class="col-12 col-md-5 col-xl-4 d-flex align-items-center justify-content-center justify-content-xl-start text-center text-lg-left">
+            <a href="/video" class="data-cta">
+                <div class="data-cta-heading animated fadeInUpLess fast delay-2-5s">
+                    {{ .videoprompt }}
+                </div>
+                <p class="d-md-flex d-lg-block regular animated fadeInUpLess fast delay-2-5s">
+                    {{ .videoprompt2 }} <img class="rtarrow" src="/images/icons/rtarrow-blk.svg" />
+                </p>
+            </a>    
+        </div>
+    </div>    
 </div>   
 
 {{ end }}

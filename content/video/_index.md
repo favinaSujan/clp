@@ -6,7 +6,7 @@ aboutblock: Linking individuals across historical data sources opens up exciting
 image: /uploads/census1920.jpg
 videoSection:
   heading: 'Video'
-  para: Watch these clips to learn more about our project's background and how to use the website.
+  para: Watch these clips to learn more about the project's background and how to use the website.
   videos:
     - uid: origin
       thumb: /images/assets/video/what-home-means-thumb.jpg
@@ -18,7 +18,7 @@ videoSection:
       thumb: /images/assets/video/destiny2-thumb.jpg
       videoId: KnLiodZspK0
       captionState: en
-      title: "Relevance to Current Issues"
+      title: "Relevance to Current<br>Issues"
       description: 
     - uid: demo
       thumb: /images/assets/video/rosemary2-thumb.jpg
