@@ -174,7 +174,7 @@ body.home {
   .row.cta {
       background-color: #fff;
       height: 16vh;
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         height: 22vh;
       }
       width: 100%;
