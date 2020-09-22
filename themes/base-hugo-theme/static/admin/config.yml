@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: carousel # Branch to update (optional; defaults to master)
+  branch: production # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -40,6 +40,10 @@ collections:
           - {label: Blockquote, required: false, name: aboutblock, widget: string}
           - {label: Image, required: false, name: image, widget: image}
           - {label: Body text, required: false, name: body, widget: markdown}
+          - {label: Citation section header, required: false, name: citationheader, widget: string}
+          - {label: Citation section text, required: false, name: citationtext, widget: markdown}
+          - {label: Contact prompt header, required: false, name: submitheader, widget: string}
+          - {label: Contact prompt text, required: false, name: submittext, widget: markdown}
   
   #Data
   - label: "Data Page"
