@@ -4,7 +4,7 @@
 {{ partial "nav2" . }}
 
 {{ with .Site.Data.home }}
-<div class="row hero pt-15 pt-lg-5 mx-0 px-2 d-flex align-items-center justify-content-center justify-content-lg-start">
+<div class="row hero pt-15 pt-lg-5 pb-3 pb-md-0 mx-0 px-2 d-flex align-items-center justify-content-center justify-content-lg-start">
     <div id="herotext" class="col-12 col-md-8 col-lg-6 pb-md-5 pb-lg-0 offset-lg-1 text-center text-md-left">
         <p class="d-none d-md-block largetext animated fadeInUp delay-halfs slow">
             {{ .herotext }}        
@@ -22,8 +22,8 @@
    
 </div>
 <div class="row cta mx-0 animated fadeInUpLess delay-2-5s mt-4 mt-md-0">
-    <div class="col-12 col-lg-10 mx-auto d-flex flex-column flex-md-row py-5 py-md-0">
-        <div class="col-12 col-md-5 col-xl-4 d-flex align-items-center justify-content-center justify-content-lg-start text-center text-lg-left mb-3 mb-md-0">
+    <div class="col-12 col-lg-10 mx-auto d-md-flex flex-column flex-md-row py-1 py-md-0">
+        <div class="col-12 col-md-5 col-xl-4 d-md-flex align-items-center justify-content-center justify-content-lg-start text-center text-lg-left mb-md-0">
             <a href="/data" class="data-cta">
                 <div class="orangetext data-cta-heading animated fadeInUpLess fast delay-2-5s">
                     {{ .dataprompt }}
@@ -34,7 +34,7 @@
             </a>    
         </div>
         <div id="middleborder" class="d-none d-md-flex col-md-2 col-xl-4 justify-content-center align-items-center"><div id="middleborder__line"></div></div>
-        <div id="videoprompt" class="col-12 col-md-5 col-xl-4 d-flex align-items-center justify-content-center justify-content-xl-start text-center text-lg-left">
+        <div id="videoprompt" class="col-12 col-md-5 col-xl-4 d-md-flex align-items-center justify-content-center justify-content-xl-start text-center text-lg-left pb-4 pb-md-0">
             <a href="/video" class="data-cta">
                 <div class="data-cta-heading animated fadeInUpLess fast delay-2-5s">
                     {{ .videoprompt }}
