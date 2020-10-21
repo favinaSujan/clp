@@ -86,16 +86,14 @@ $(document).ready(function () {
     var censusID1 = $( "#census1" ).val();
     var censusID2 = $( "#census2" ).val();
    
-    if (censusID2 <= censusID1 && censusID1 != 1870) {
-      console.log('Invalid range');
+    if (censusID2 <= censusID1  && censusID1 != 1880) {
       censusID2 = Number(censusID1) + 10
       $("select#census2").val(censusID2);
     };
-    if (censusID2 <= censusID1 && censusID1 == 1870) {
-      console.log('Invalid range');
-      censusID2 = Number(censusID1) + 30
+    if (censusID2 <= censusID1 && censusID1 == 1880) {
+      censusID2 = Number(censusID1) + 20
       $("select#census2").val(censusID2);
-    };
+    }; 
 
     $('select#census2').find('option').each(function() {
         if (Number(this.value) <= censusID1) {
