@@ -27,6 +27,6 @@ para3: >-
 
   <hr />
 
-  <sup>1</sup> Note: Crosswalks with 1880 data will be added as soon as stable histids are made available. The microdata for the 1890 Census is no longer extant.
+  <sup>1</sup> Note: The microdata for the 1890 Census is no longer extant.
 image: null
 ---
