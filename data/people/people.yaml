@@ -19,7 +19,7 @@ team:
     org: Northwestern University
   - name: Jonas Helgertz
     link: https://pop.umn.edu/content/jonas-helgertz
-    org: Minnesota Population Center (University of Minnesota)
+    org: "Minnesota Population Center "
   - name: Santiago Pérez
     link: http://seperez.ucdavis.edu/
     org: University of California, Davis
@@ -27,5 +27,5 @@ team:
     link: https://economics.byu.edu/directory/joseph-p-price
     org: Brigham Young University
   - name: Myera Rashid
-    org: Princeton University
+    org: Northwestern University
     link: https://sites.google.com/nyu.edu/myera-rashid/home
