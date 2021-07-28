@@ -22,7 +22,11 @@ para3: >-
   able to download the data (in .dta and .csv formats), codes used to create the
   crosswalks, and further codes that will allow you to merge in information from
   IPUMS and to  reweight the data. Extensive documentation is provided and
-  should be consulted before using the data.
+  should be consulted before using the data. The linking methods have varying
+  accuracy based on race, birth place and time period. We encourage checking the
+  links based on the context of your project, utilizing multiple methods, and
+  using your best judgement to determine whether a particular method is right
+  for your context.
 
 
   <hr />
