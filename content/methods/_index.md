@@ -9,7 +9,7 @@ blockquote: Our linking methods aim to make as few false matches as possible
 ---
 Figure 1 shows a comparison of different linking methods according to their type I and type II errors.
 
-![Chart comparing type I and type II linking errors resulting from different linking methods.](/uploads/link_methods.png)
+![Chart comparing type I and type II linking errors resulting from different linking methods provided here.](/uploads/link_methods.png)
 
 This figure refers to a series of linking methods currently used or soon to be added to this project (e.g., the ABE method, machine learning method, and EM method). Details of these linking methods can be found in the paper <a target="_blank" href="https://scholar.princeton.edu/sites/default/files/lboustan/files/nber_automated_linking.pdf">“Automated Linking of Historical Data”</a> by Ran Abramitzky, Leah Platt Boustan, Katherine Eriksson, James J. Feigenbaum, and Santiago Pérez. 
 
